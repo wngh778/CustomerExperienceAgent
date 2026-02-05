@@ -1,0 +1,1020 @@
+{
+    "success": true,
+    "response": {
+        "metadata": {
+            "prcssMdelVsnId": "20",
+            "prcssYmYMS": "20260118001711"
+        },
+        "page": {
+            "pageNumber": 0,
+            "pageSize": 100,
+            "totalElements": 187,
+            "totalPages": 2,
+            "lastYn": false,
+            "firstYn": true,
+            "numberOfElements": 100,
+            "content": [
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "00",
+                    "gvrnDstcd": "83",
+                    "gvrnMsgCtnt": "KB국민은행  NPS는 13.4이며 4위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 신한은행 대비 3.3 낮고, 시장평균 대비 7.1 낮음.\n- 비추천 비중은 22.2%이며 신한은행 대비 1.6%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "00",
+                    "gvrnDstcd": "04",
+                    "gvrnMsgCtnt": "KB국민은행의 응답률 1위는 상품 경쟁력(35.2)이며, NPS 최상위기관인 토스뱅크 대비 14.2 높고 벤치마크사인 신한은행 대비 1.8 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 브랜드 경쟁력(20.6), 비추천이유 1위는 상품 경쟁력(11.7)"
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "73",
+                    "gvrnMsgCtnt": "KB국민은행 브랜드 NPS는 16.2점이며 4위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 신한은행 대비 1.5점 낮고, 시장평균 대비 4.0점 낮음.\n- 혁신주도(미래가치) NPS는 -3.3점이며, 벤치마크사인 신한은행 대비 6.4점으로 가장 큰 열위를 보임.\n  동반성장(ESG) NPS는 -0.7점, 혁신주도(미래가치) NPS는 -3.3으로 0점 이하로 나타남."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "74",
+                    "gvrnMsgCtnt": "NPS의 중점 개선 문제 영역은 고객중심",
+                    "gvrnMsgDetailCtnt": "- 점진개선 문제 영역은 고객소통, 혁신주도(미래가치)으로 분석"
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "83",
+                    "gvrnMsgCtnt": "KB국민은행 브랜드 NPS는 16.2이며 4위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 신한은행 대비 1.5 낮고, 시장평균 대비 4.0 낮음.\n- 비추천 비중은 22.2%이며 신한은행 대비 1.2%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "04",
+                    "gvrnMsgCtnt": "브랜드에서 KB국민은행의 응답률 1위는 신뢰성 이미지(27.4)이며, NPS 최상위기관인 토스뱅크 대비 15.5 높고 벤치마크사인 신한은행 대비 4.1 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 신뢰성 이미지(19.5), 비추천이유 1위는 고객중심 이미지(7.4)"
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "84",
+                    "gvrnMsgCtnt": "혁신주도(미래가치) NPS는 -3.3로 벤치마크사인 신한은행 대비 6.4로 가장 큰 열위를 보임.\n동반성장(ESG) NPS는 -0.7, 혁신주도(미래가치) NPS는 -3.3로 0점 이하인 영역으로 나타남.",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "A1",
+                    "gvrnMsgCtnt": "KB국민은행 고객중심 NPS는 5.8로 전체 4위이며, 직상위기관인 신한은행보다 2.1 낮고 시장평균 대비 5.8 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 29.0%로 최상위기관인 토스뱅크보다 13.5%p 높음 신한은행 대비 1.2%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "A2",
+                    "gvrnMsgCtnt": "고객중심 단계에서 KB국민은행의 응답률 1위는 고객중심적 이율/금리를 제공(31.8%)이며, NPS영향도 최상위기관인 토스뱅크 대비 11.9%p 높고 벤치마크사인 신한은행 대비 2.3%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 채널 접근 용이성(13.1%)이고 비추천이유 1위는 고객중심적 이율/금리를 제공(12.2%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "A4",
+                    "gvrnMsgCtnt": "고객중심 단계의 고객감정지수(NSS)는 -10.6이며, 벤치마크사인 신한은행 대비 -1.4 낮고, 부정비중은 0.2 높음\n\n고객중심 단계의 고객불만지수(CCI)는 43.3이며, 벤치마크사인 신한은행 대비 1.8 높고, 개선비중은 -0.4 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "B1",
+                    "gvrnMsgCtnt": "KB국민은행 전문성 NPS는 11.2로 전체 4위이며, 직상위기관인 신한은행보다 2.1 낮고 시장평균 대비 0.2 높음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 25.1%로 최상위기관인 토스뱅크보다 7.9%p 높음 신한은행 대비 0.7%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "B2",
+                    "gvrnMsgCtnt": "전문성 단계에서 KB국민은행의 응답률 1위는 디지털 금융 플랫폼 운영 역량 및 인프라 구축(26.9%)이며, NPS영향도 최상위기관인 토스뱅크 대비 -10.3%p 낮고 벤치마크사인 신한은행 대비 -1.8%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 종합 금융 서비스 제공(15.5%)이고 비추천이유 1위는 디지털 금융 플랫폼 운영 역량 및 인프라 구축(5.8%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "B4",
+                    "gvrnMsgCtnt": "전문성 단계의 고객감정지수(NSS)는 -11.1이며, 벤치마크사인 신한은행 대비 -3.1 낮고, 부정비중은 1.4 높음\n\n전문성 단계의 고객불만지수(CCI)는 40.5이며, 벤치마크사인 신한은행 대비 2.2 높고, 개선비중은 1.8 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "C1",
+                    "gvrnMsgCtnt": "KB국민은행 혁신주도(미래가치) NPS는 -3.3로 전체 5위이며, 직상위기관인 하나은행보다 0.5 낮고 시장평균 대비 10.0 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 33.6%로 최상위기관인 토스뱅크보다 21.1%p 높음 하나은행 대비 0.2%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "C2",
+                    "gvrnMsgCtnt": "혁신주도(미래가치) 단계에서 KB국민은행의 응답률 1위는 변화하는 고객 요구와 시장 상황 대응력(21.8%)이며, NPS영향도 최상위기관인 토스뱅크 대비 8.4%p 높고 벤치마크사인 신한은행 대비 3.7%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 변화하는 고객 요구와 시장 상황 대응력(7.3%)이고 비추천이유 1위는 변화하는 고객 요구와 시장 상황 대응력(8.1%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "C4",
+                    "gvrnMsgCtnt": "혁신주도(미래가치) 단계의 고객감정지수(NSS)는 -16.7이며, 벤치마크사인 신한은행 대비 -5.6 낮고, 부정비중은 1.8 높음\n\n혁신주도(미래가치) 단계의 고객불만지수(CCI)는 44.3이며, 벤치마크사인 신한은행 대비 3.9 높고, 개선비중은 2.1 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "D1",
+                    "gvrnMsgCtnt": "KB국민은행 신뢰정직 NPS는 22.6로 전체 2위이며, 직상위기관인 토스뱅크보다 10.1 낮고 시장평균 대비 4.2 높음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 22.8%로 최상위기관인 토스뱅크보다 6.0%p 높음 토스뱅크 대비 6.0%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "D2",
+                    "gvrnMsgCtnt": "신뢰정직 단계에서 KB국민은행의 응답률 1위는 긍정적인 고객만족도와 평판(24.4%)이며, NPS영향도 최상위기관인 토스뱅크 대비 1.7%p 높고 벤치마크사인 신한은행 대비 -0.7%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 우수한 재정 안정성 및 건전성(16.1%)이고 비추천이유 1위는 긍정적인 고객만족도와 평판(6.1%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "D4",
+                    "gvrnMsgCtnt": "신뢰정직 단계의 고객감정지수(NSS)는 6.2이며, 벤치마크사인 신한은행 대비 1.2 높고, 부정비중은 -0.7 낮음\n\n신뢰정직 단계의 고객불만지수(CCI)는 29.9이며, 벤치마크사인 신한은행 대비 0.2 높고, 개선비중은 0.3 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "E1",
+                    "gvrnMsgCtnt": "KB국민은행 동반성장(ESG) NPS는 -0.7로 전체 4위이며, 직상위기관인 NH농협은행보다 1.8 낮고 시장평균 대비 0.8 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 32.9%로 최상위기관인 토스뱅크보다 5.5%p 높음 NH농협은행 대비 0.3%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "E2",
+                    "gvrnMsgCtnt": "동반성장(ESG) 단계에서 KB국민은행의 응답률 1위는 ESG 금융상품의 다양화(25.4%)이며, NPS영향도 최상위기관인 토스뱅크 대비 -4.4%p 낮고 벤치마크사인 신한은행 대비 -1.2%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 ESG 금융상품의 다양화(10.4%)이고 비추천이유 1위는 ESG 금융상품의 다양화(7.8%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "E4",
+                    "gvrnMsgCtnt": "동반성장(ESG) 단계의 고객감정지수(NSS)는 -18.4이며, 벤치마크사인 신한은행 대비 1.6 높고, 부정비중은 -0.3 낮음\n\n동반성장(ESG) 단계의 고객불만지수(CCI)는 41.6이며, 벤치마크사인 신한은행 대비 1.3 높고, 개선비중은 0.1 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "F1",
+                    "gvrnMsgCtnt": "KB국민은행 고객소통 NPS는 9.1로 전체 5위이며, 직상위기관인 하나은행보다 0.2 낮고 시장평균 대비 3.4 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 28.5%로 최상위기관인 토스뱅크보다 8.6%p 높음 하나은행 대비 0.7%p 낮음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "F2",
+                    "gvrnMsgCtnt": "고객소통 단계에서 KB국민은행의 응답률 1위는 원활한 커뮤니케이션 역량 보유(25.3%)이며, NPS영향도 최상위기관인 토스뱅크 대비 -2.9%p 낮고 벤치마크사인 신한은행 대비 -1.4%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 긍정 브랜드 이미지 전달 역량(10.7%)이고 비추천이유 1위는 원활한 커뮤니케이션 역량 보유(10.2%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "F4",
+                    "gvrnMsgCtnt": "고객소통 단계의 고객감정지수(NSS)는 -10.1이며, 벤치마크사인 신한은행 대비 -4.7 낮고, 부정비중은 3.3 높음\n\n고객소통 단계의 고객불만지수(CCI)는 37.4이며, 벤치마크사인 신한은행 대비 3.1 높고, 개선비중은 0.7 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "01",
+                    "gvrnDstcd": "80",
+                    "gvrnMsgCtnt": "중점개선 영역은 고객중심 단계로 NPS중요도는 27.2이며, 벤치마크 대비 NPS Gap은 벤치마크사인 신한은행 대비 2.7 낮음.",
+                    "gvrnMsgDetailCtnt": "- 점진개선 영역은 고객소통, 혁신주도(미래가치) 단계로 NPS중요도는 13.0, 14.9이며, 벤치마크 대비 NPS Gap은 벤치마크사인 신한은행 대비 1.2, 3.7 낮음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "73",
+                    "gvrnMsgCtnt": "KB국민은행 플랫폼 NPS는 32.4점이며 4위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 신한은행 대비 4.6점 낮고, 시장평균 대비 3.3점 낮음.\n- 금융상품몰 NPS는 -4.4점이며, 벤치마크사인 신한은행 대비 9.2점으로 가장 큰 열위를 보임.\n  금융상품몰 NPS는 -4.4으로 0점 이하로 나타남."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "74",
+                    "gvrnMsgCtnt": "NPS의 중점 개선 문제 영역은 콘텐츠/서비스, 통합검색",
+                    "gvrnMsgDetailCtnt": "- 점진개선 문제 영역은 금융상품몰, 상품가입으로 분석"
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "83",
+                    "gvrnMsgCtnt": "KB국민은행 플랫폼 NPS는 32.4이며 4위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 신한은행 대비 4.6 낮고, 시장평균 대비 3.3 낮음.\n- 비추천 비중은 18.6%이며 신한은행 대비 0.8%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "04",
+                    "gvrnMsgCtnt": "플랫폼에서 KB국민은행의 응답률 1위는 계좌조회/이체(26.3)이며, NPS 최상위기관인 토스뱅크 대비 0.4 높고 벤치마크사인 신한은행 대비 1.2 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 계좌조회/이체(23.2), 비추천이유 1위는 콘텐츠/서비스(4.3)"
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "84",
+                    "gvrnMsgCtnt": "금융상품몰 NPS는 -4.4로 벤치마크사인 신한은행 대비 9.2로 가장 큰 열위를 보임.\n금융상품몰 NPS는 -4.4로 0점 이하인 영역으로 나타남.",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "A1",
+                    "gvrnMsgCtnt": "KB국민은행 로그인/인증 NPS는 31.5로 전체 4위이며, 직상위기관인 신한은행보다 4.3 낮고 시장평균 대비 2.4 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 21.3%로 최상위기관인 토스뱅크보다 9.7%p 높음 신한은행 대비 1.6%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "A2",
+                    "gvrnMsgCtnt": "로그인/인증 단계에서 KB국민은행의 응답률 1위는 로그인/인증 이용편의성(27.8%)이며, NPS영향도 최상위기관인 토스뱅크 대비 -3.9%p 낮고 벤치마크사인 신한은행 대비 0.4%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 로그인/인증 이용편의성(20.2%)이고 비추천이유 1위는 로그인/인증 화면의 시인성(6.0%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "A4",
+                    "gvrnMsgCtnt": "로그인/인증 단계의 고객감정지수(NSS)는 18.8이며, 벤치마크사인 신한은행 대비 -9.2 낮고, 부정비중은 3.8 높음\n\n로그인/인증 단계의 고객불만지수(CCI)는 27.0이며, 벤치마크사인 신한은행 대비 5.0 높고, 개선비중은 -0.5 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "B1",
+                    "gvrnMsgCtnt": "KB국민은행 홈화면 NPS는 27.6로 전체 4위이며, 직상위기관인 신한은행보다 3.4 낮고 시장평균 대비 2.9 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 22.9%로 최상위기관인 토스뱅크보다 10.2%p 높음 신한은행 대비 0.6%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "B2",
+                    "gvrnMsgCtnt": "홈화면 단계에서 KB국민은행의 응답률 1위는 홈화면의 심미성(31.3%)이며, NPS영향도 최상위기관인 토스뱅크 대비 1.2%p 높고 벤치마크사인 신한은행 대비 0.0%p 같음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 홈화면의 심미성(16.1%)이고 비추천이유 1위는 홈화면의 심미성(7.7%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "B4",
+                    "gvrnMsgCtnt": "홈화면 단계의 고객감정지수(NSS)는 9.3이며, 벤치마크사인 신한은행 대비 -7.3 낮고, 부정비중은 2.3 높음\n\n홈화면 단계의 고객불만지수(CCI)는 33.1이며, 벤치마크사인 신한은행 대비 3.8 높고, 개선비중은 -0.8 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "F1",
+                    "gvrnMsgCtnt": "KB국민은행 계좌조회/이체 NPS는 40.8로 전체 4위이며, 직상위기관인 신한은행보다 1.7 낮고 시장평균 대비 2.0 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 18.1%로 최상위기관인 토스뱅크보다 9.3%p 높음 신한은행 대비 1.7%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "F2",
+                    "gvrnMsgCtnt": "계좌조회/이체 단계에서 KB국민은행의 응답률 1위는 계좌조회/이체 화면의 시인성(26.1%)이며, NPS영향도 최상위기관인 토스뱅크 대비 4.3%p 높고 벤치마크사인 신한은행 대비 1.7%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 계좌조회/이체 화면의 시인성(16.7%)이고 비추천이유 1위는 계좌조회/이체 화면의 시인성(4.4%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "F4",
+                    "gvrnMsgCtnt": "계좌조회/이체 단계의 고객감정지수(NSS)는 29.7이며, 벤치마크사인 신한은행 대비 -0.2 낮고, 부정비중은 0.3 높음\n\n계좌조회/이체 단계의 고객불만지수(CCI)는 20.8이며, 벤치마크사인 신한은행 대비 0.1 높고, 개선비중은 -0.5 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "C1",
+                    "gvrnMsgCtnt": "KB국민은행 통합검색 NPS는 21.3로 전체 4위이며, 직상위기관인 신한은행보다 2.7 낮고 시장평균 대비 1.4 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 25.8%로 최상위기관인 토스뱅크보다 9.2%p 높음 신한은행 대비 0.6%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "C2",
+                    "gvrnMsgCtnt": "통합검색 단계에서 KB국민은행의 응답률 1위는 검색결과의 정보 충분성(20.6%)이며, NPS영향도 최상위기관인 토스뱅크 대비 1.6%p 높고 벤치마크사인 신한은행 대비 0.0%p 같음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 검색결과의 정보 충분성(11.3%)이고 비추천이유 1위는 검색결과의 정보 충분성(5.1%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "C4",
+                    "gvrnMsgCtnt": "통합검색 단계의 고객감정지수(NSS)는 4.3이며, 벤치마크사인 신한은행 대비 -3.4 낮고, 부정비중은 3.2 높음\n\n통합검색 단계의 고객불만지수(CCI)는 35.4이며, 벤치마크사인 신한은행 대비 2.3 높고, 개선비중은 -0.1 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "D1",
+                    "gvrnMsgCtnt": "KB국민은행 금융상품몰 NPS는 -4.4로 전체 5위이며, 직상위기관인 NH농협은행보다 6.9 낮고 시장평균 대비 8.1 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 39.0%로 최상위기관인 토스뱅크보다 14.0%p 높음 NH농협은행 대비 4.1%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "D2",
+                    "gvrnMsgCtnt": "금융상품몰 단계에서 KB국민은행의 응답률 1위는 금융상품몰 탐색 편의성(24.2%)이며, NPS영향도 최상위기관인 토스뱅크 대비 -0.4%p 낮고 벤치마크사인 신한은행 대비 -1.0%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 금융상품몰 탐색 편의성(7.5%)이고 비추천이유 1위는 금융상품몰 탐색 편의성(10.6%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "D4",
+                    "gvrnMsgCtnt": "금융상품몰 단계의 고객감정지수(NSS)는 -12.6이며, 벤치마크사인 신한은행 대비 -12.7 낮고, 부정비중은 5.7 높음\n\n금융상품몰 단계의 고객불만지수(CCI)는 39.5이며, 벤치마크사인 신한은행 대비 6.4 높고, 개선비중은 0.4 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "E1",
+                    "gvrnMsgCtnt": "KB국민은행 상품가입 NPS는 8.7로 전체 5위이며, 직상위기관인 NH농협은행보다 0.7 낮고 시장평균 대비 6.7 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 31.2%로 최상위기관인 토스뱅크보다 9.8%p 높음 NH농협은행 대비 0.1%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "E2",
+                    "gvrnMsgCtnt": "상품가입 단계에서 KB국민은행의 응답률 1위는 가입절차의 업무연속성(19.4%)이며, NPS영향도 최상위기관인 토스뱅크 대비 -1.6%p 낮고 벤치마크사인 신한은행 대비 -3.9%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 가입절차의 업무연속성(11.8%)이고 비추천이유 1위는 가입정보 안내의 충분성(5.8%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "E4",
+                    "gvrnMsgCtnt": "상품가입 단계의 고객감정지수(NSS)는 -4.4이며, 벤치마크사인 신한은행 대비 -9.5 낮고, 부정비중은 5.8 높음\n\n상품가입 단계의 고객불만지수(CCI)는 38.2이며, 벤치마크사인 신한은행 대비 6.3 높고, 개선비중은 -1.2 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "G1",
+                    "gvrnMsgCtnt": "KB국민은행 상품관리/해지 NPS는 15.2로 전체 4위이며, 직상위기관인 신한은행보다 7.1 낮고 시장평균 대비 4.8 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 28.9%로 최상위기관인 카카오뱅크보다 7.4%p 높음 신한은행 대비 2.6%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "G2",
+                    "gvrnMsgCtnt": "상품관리/해지 단계에서 KB국민은행의 응답률 1위는 상품관리/해지 서비스의 접근성(29.5%)이며, NPS영향도 최상위기관인 카카오뱅크 대비 2.0%p 높고 벤치마크사인 신한은행 대비 0.6%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 상품관리/해지 프로세스 적절성(15.7%)이고 비추천이유 1위는 상품관리/해지 서비스의 접근성(10.1%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "G4",
+                    "gvrnMsgCtnt": "",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "H1",
+                    "gvrnMsgCtnt": "KB국민은행 콘텐츠/서비스 NPS는 15.7로 전체 4위이며, 직상위기관인 신한은행보다 5.3 낮고 시장평균 대비 4.2 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 28.6%로 최상위기관인 토스뱅크보다 13.2%p 높음 신한은행 대비 2.6%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "H2",
+                    "gvrnMsgCtnt": "콘텐츠/서비스 단계에서 KB국민은행의 응답률 1위는 혜택/이벤트의 고객 지향성(32.6%)이며, NPS영향도 최상위기관인 토스뱅크 대비 -0.1%p 낮고 벤치마크사인 신한은행 대비 -1.0%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 혜택/이벤트의 고객 지향성(15.8%)이고 비추천이유 1위는 멤버십(KB스타클럽)의 유용성(10.1%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "H4",
+                    "gvrnMsgCtnt": "콘텐츠/서비스 단계의 고객감정지수(NSS)는 0.0이며, 벤치마크사인 신한은행 대비 -4.9 낮고, 부정비중은 2.5 높음\n\n콘텐츠/서비스 단계의 고객불만지수(CCI)는 34.9이며, 벤치마크사인 신한은행 대비 2.6 높고, 개선비중은 -0.2 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "02",
+                    "gvrnDstcd": "80",
+                    "gvrnMsgCtnt": "중점개선 영역은 콘텐츠/서비스, 통합검색 단계로 NPS중요도는 22.3, 14.0이며, 벤치마크 대비 NPS Gap은 벤치마크사인 신한은행 대비 1.5, 1.0 낮음.",
+                    "gvrnMsgDetailCtnt": "- 점진개선 영역은 금융상품몰, 상품가입 단계로 NPS중요도는 9.0, 8.9이며, 벤치마크 대비 NPS Gap은 벤치마크사인 신한은행 대비 0.8, 1.2 낮음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "73",
+                    "gvrnMsgCtnt": "KB국민은행 대면채널 NPS는 15.7점이며 5위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 하나은행 대비 3.1점 낮고, 시장평균 대비 6.6점 낮음.\n- 대기 NPS는 -4.7점이며, 벤치마크사인 하나은행 대비 7.5점으로 가장 큰 열위를 보임.\n  대기 NPS는 -4.7으로 0점 이하로 나타남."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "74",
+                    "gvrnMsgCtnt": "",
+                    "gvrnMsgDetailCtnt": "- 점진개선 문제 영역은 맞이/의도파악, 직원상담으로 분석"
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "83",
+                    "gvrnMsgCtnt": "KB국민은행 대면채널 NPS는 15.7이며 5위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 하나은행 대비 3.1 낮고, 시장평균 대비 6.6 낮음.\n- 비추천 비중은 26.5%이며 하나은행 대비 1.2%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "04",
+                    "gvrnMsgCtnt": "대면채널에서 KB국민은행의 응답률 1위는 대기(34.3)이며, NPS 최상위기관인 신한은행 대비 9.1 높고 벤치마크사인 하나은행 대비 5.6 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 업무처리/배웅(15.1), 비추천이유 1위는 대기(14.5)"
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "84",
+                    "gvrnMsgCtnt": "대기 NPS는 -4.7로 벤치마크사인 하나은행 대비 7.5로 가장 큰 열위를 보임.\n대기 NPS는 -4.7로 0점 이하인 영역으로 나타남.",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "A1",
+                    "gvrnMsgCtnt": "KB국민은행 내점/방문 NPS는 7.6로 전체 5위이며, 직상위기관인 하나은행보다 5.9 낮고 시장평균 대비 9.4 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 32.1%로 최상위기관인 신한은행보다 7.8%p 높음 하나은행 대비 0.8%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "A2",
+                    "gvrnMsgCtnt": "내점/방문 단계에서 KB국민은행의 응답률 1위는 영업점 접근성(36.3%)이며, NPS영향도 최상위기관인 신한은행 대비 -3.8%p 낮고 벤치마크사인 하나은행 대비 -5.1%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 영업점 접근성(17.5%)이고 비추천이유 1위는 영업점 접근성(10.1%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "A4",
+                    "gvrnMsgCtnt": "내점/방문 단계의 고객감정지수(NSS)는 -14.2이며, 벤치마크사인 하나은행 대비 -6.7 낮고, 부정비중은 5.6 높음\n\n내점/방문 단계의 고객불만지수(CCI)는 45.9이며, 벤치마크사인 하나은행 대비 5.2 높고, 개선비중은 1.7 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "B1",
+                    "gvrnMsgCtnt": "KB국민은행 대기 NPS는 -4.7로 전체 5위이며, 직상위기관인 우리은행보다 5.9 낮고 시장평균 대비 9.0 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 38.1%로 최상위기관인 신한은행보다 8.1%p 높음 우리은행 대비 3.5%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "B2",
+                    "gvrnMsgCtnt": "대기 단계에서 KB국민은행의 응답률 1위는 대기관리 운영 효율성(32.2%)이며, NPS영향도 최상위기관인 신한은행 대비 5.3%p 높고 벤치마크사인 하나은행 대비 3.9%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 대기공간의 쾌적성(11.0%)이고 비추천이유 1위는 대기관리 운영 효율성(14.1%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "B4",
+                    "gvrnMsgCtnt": "대기 단계의 고객감정지수(NSS)는 -22.1이며, 벤치마크사인 하나은행 대비 1.2 높고, 부정비중은 -0.7 낮음\n\n대기 단계의 고객불만지수(CCI)는 50.9이며, 벤치마크사인 하나은행 대비 2.7 높고, 개선비중은 1.1 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "C1",
+                    "gvrnMsgCtnt": "KB국민은행 맞이/의도파악 NPS는 18.6로 전체 4위이며, 직상위기관인 NH농협은행보다 2.9 낮고 시장평균 대비 2.3 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 26.3%로 최상위기관인 신한은행보다 2.8%p 높음 NH농협은행 대비 0.5%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "C2",
+                    "gvrnMsgCtnt": "맞이/의도파악 단계에서 KB국민은행의 응답률 1위는 고객 요구파악 정확성(32.8%)이며, NPS영향도 최상위기관인 신한은행 대비 -3.8%p 낮고 벤치마크사인 하나은행 대비 -0.3%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 고객 요구파악 정확성(20.9%)이고 비추천이유 1위는 대기양해 멘트(10.7%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "C4",
+                    "gvrnMsgCtnt": "맞이/의도파악 단계의 고객감정지수(NSS)는 -0.4이며, 벤치마크사인 하나은행 대비 -8.5 낮고, 부정비중은 5.6 높음\n\n맞이/의도파악 단계의 고객불만지수(CCI)는 37.9이며, 벤치마크사인 하나은행 대비 6.4 높고, 개선비중은 0.6 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "E1",
+                    "gvrnMsgCtnt": "KB국민은행 직원상담 NPS는 23.0로 전체 3위이며, 직상위기관인 신한은행보다 4.9 낮고 시장평균 대비 1.8 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 25.7%로 최상위기관인 NH농협은행보다 2.2%p 높음 신한은행 대비 1.9%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "E2",
+                    "gvrnMsgCtnt": "직원상담 단계에서 KB국민은행의 응답률 1위는 상담의 전문성(38.0%)이며, NPS영향도 최상위기관인 NH농협은행 대비 -0.5%p 낮고 벤치마크사인 하나은행 대비 1.8%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 상담의 전문성(27.2%)이고 비추천이유 1위는 상품추천 적합성(6.1%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "E4",
+                    "gvrnMsgCtnt": "직원상담 단계의 고객감정지수(NSS)는 10.5이며, 벤치마크사인 하나은행 대비 4.6 높고, 부정비중은 1.3 높음\n\n직원상담 단계의 고객불만지수(CCI)는 32.6이며, 벤치마크사인 하나은행 대비 1.9 높고, 개선비중은 -1.8 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "D1",
+                    "gvrnMsgCtnt": "KB국민은행 업무처리/배웅 NPS는 23.9로 전체 4위이며, 직상위기관인 하나은행보다 0.3 낮고 시장평균 대비 1.7 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 25.9%로 최상위기관인 신한은행보다 3.9%p 높음 하나은행 대비 2.1%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "D2",
+                    "gvrnMsgCtnt": "업무처리/배웅 단계에서 KB국민은행의 응답률 1위는 업무처리의 적극성(42.4%)이며, NPS영향도 최상위기관인 신한은행 대비 0.4%p 높고 벤치마크사인 하나은행 대비 -0.6%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 업무처리의 적극성(22.5%)이고 비추천이유 1위는 업무처리의 적극성(10.4%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "D4",
+                    "gvrnMsgCtnt": "업무처리/배웅 단계의 고객감정지수(NSS)는 11.6이며, 벤치마크사인 하나은행 대비 -0.2 낮고, 부정비중은 3.2 높음\n\n업무처리/배웅 단계의 고객불만지수(CCI)는 31.8이며, 벤치마크사인 하나은행 대비 2.7 높고, 개선비중은 -0.2 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "03",
+                    "gvrnDstcd": "80",
+                    "gvrnMsgCtnt": "",
+                    "gvrnMsgDetailCtnt": "- 점진개선 영역은 맞이/의도파악, 직원상담 단계로 NPS중요도는 4.9, 17.1이며, 벤치마크 대비 NPS Gap은 벤치마크사인 하나은행 대비 2.3, 3.2 낮음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "73",
+                    "gvrnMsgCtnt": "KB국민은행 고객센터 NPS는 23.6점이며 4위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 하나은행 대비 0.5점 낮고, 시장평균 대비 0.7점 높음.\n- 콜봇상담 NPS는 -8.2점이며, 벤치마크사인 하나은행 대비 10.0점으로 가장 큰 열위를 보임.\n  대기 NPS는 -4.9점, 콜봇상담 NPS는 -8.2으로 0점 이하로 나타남."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "74",
+                    "gvrnMsgCtnt": "NPS의 중점 개선 문제 영역은 대기",
+                    "gvrnMsgDetailCtnt": "- 점진개선 문제 영역은 버튼식ARS, 콜봇상담으로 분석"
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "83",
+                    "gvrnMsgCtnt": "KB국민은행 고객센터 NPS는 23.6이며 4위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 하나은행 대비 0.5 낮고, 시장평균 대비 0.7 높음.\n- 비추천 비중은 23.7%이며 하나은행 대비 0.3%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "04",
+                    "gvrnMsgCtnt": "고객센터에서 KB국민은행의 응답률 1위는 직원 상담(35.3)이며, NPS 최상위기관인 토스뱅크 대비 3.8 낮고 벤치마크사인 하나은행 대비 3.9 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 직원 상담(29.9), 비추천이유 1위는 대기(12.1)"
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "84",
+                    "gvrnMsgCtnt": "콜봇상담 NPS는 -8.2로 벤치마크사인 하나은행 대비 10.0로 가장 큰 열위를 보임.\n대기 NPS는 -4.9, 콜봇상담 NPS는 -8.2로 0점 이하인 영역으로 나타남.",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "B1",
+                    "gvrnMsgCtnt": "KB국민은행 버튼식ARS NPS는 11.5로 전체 5위이며, 직상위기관인 신한은행보다 2.3 낮고 시장평균 대비 3.1 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 28.8%로 최상위기관인 토스뱅크보다 7.0%p 높음 신한은행 대비 1.2%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "B2",
+                    "gvrnMsgCtnt": "버튼식ARS 단계에서 KB국민은행의 응답률 1위는 메뉴구성 적절성(23.1%)이며, NPS영향도 최상위기관인 토스뱅크 대비 -4.7%p 낮고 벤치마크사인 하나은행 대비 -2.5%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 메뉴구성 적절성(13.2%)이고 비추천이유 1위는 메뉴이동의 신속성(7.4%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "B4",
+                    "gvrnMsgCtnt": "버튼식ARS 단계의 고객감정지수(NSS)는 -8.5이며, 벤치마크사인 하나은행 대비 -11.0 낮고, 부정비중은 5.7 높음\n\n버튼식ARS 단계의 고객불만지수(CCI)는 44.9이며, 벤치마크사인 하나은행 대비 6.5 높고, 개선비중은 -0.2 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "C1",
+                    "gvrnMsgCtnt": "KB국민은행 보이는ARS NPS는 16.1로 전체 2위이며, 직상위기관인 NH농협은행보다 0.8 낮고 시장평균 대비 4.8 높음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 27.2%로 최상위기관인 NH농협은행보다 -1.8%p 낮음 NH농협은행 대비 1.8%p 낮음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "C2",
+                    "gvrnMsgCtnt": "보이는ARS 단계에서 KB국민은행의 응답률 1위는 연결 편의성(14.6%)이며, NPS영향도 최상위기관은 KB국민은행으로 나타났고·벤치마크사인 하나은행 대비 1.2%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 연결 편의성(6.3%)이고 비추천이유 1위는 메뉴구성 적절성(4.9%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "C4",
+                    "gvrnMsgCtnt": "보이는ARS 단계의 고객감정지수(NSS)는 3.5이며, 벤치마크사인 하나은행 대비 9.1 높고, 부정비중은 -4.3 낮음\n\n보이는ARS 단계의 고객불만지수(CCI)는 40.1이며, 벤치마크사인 하나은행 대비 -4.8 낮고, 개선비중은 0.4 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "A1",
+                    "gvrnMsgCtnt": "KB국민은행 대기 NPS는 -4.9로 전체 4위이며, 직상위기관인 NH농협은행보다 1.0 낮고 시장평균 대비 2.5 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 38.9%로 최상위기관인 토스뱅크보다 11.0%p 높음 NH농협은행 대비 0.7%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "A2",
+                    "gvrnMsgCtnt": "대기 단계에서 KB국민은행의 응답률 1위는 대기시간 적절성(50.7%)이며, NPS영향도 최상위기관인 토스뱅크 대비 19.8%p 높고 벤치마크사인 하나은행 대비 -1.1%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 대기상황 안내 정확성(11.6%)이고 비추천이유 1위는 대기시간 적절성(25.5%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "A4",
+                    "gvrnMsgCtnt": "대기 단계의 고객감정지수(NSS)는 -21.0이며, 벤치마크사인 하나은행 대비 -6.6 낮고, 부정비중은 3.1 높음\n\n대기 단계의 고객불만지수(CCI)는 57.7이며, 벤치마크사인 하나은행 대비 7.7 높고, 개선비중은 -0.6 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "E1",
+                    "gvrnMsgCtnt": "KB국민은행 챗봇상담 NPS는 9.9로 전체 2위이며, 직상위기관인 토스뱅크보다 16.5 낮고 시장평균 대비 6.1 높음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 31.0%로 최상위기관인 토스뱅크보다 8.6%p 높음 토스뱅크 대비 8.6%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "E2",
+                    "gvrnMsgCtnt": "챗봇상담 단계에서 KB국민은행의 응답률 1위는 답변 정확성(11.3%)이며, NPS영향도 최상위기관인 토스뱅크 대비 3.3%p 높고 벤치마크사인 하나은행 대비 4.8%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 답변 신속성(6.3%)이고 비추천이유 1위는 답변 정확성(5.3%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "E4",
+                    "gvrnMsgCtnt": "챗봇상담 단계의 고객감정지수(NSS)는 -3.8이며, 벤치마크사인 하나은행 대비 14.9 높고, 부정비중은 -4.4 낮음\n\n챗봇상담 단계의 고객불만지수(CCI)는 41.5이며, 벤치마크사인 하나은행 대비 -11.8 낮고, 개선비중은 0.4 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "F1",
+                    "gvrnMsgCtnt": "KB국민은행 콜봇상담 NPS는 -8.2로 전체 4위이며, 직상위기관인 NH농협은행보다 9.0 낮고 시장평균 대비 3.9 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 40.6%로 최상위기관인 우리은행보다 4.5%p 높음 NH농협은행 대비 2.9%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "F2",
+                    "gvrnMsgCtnt": "콜봇상담 단계에서 KB국민은행의 응답률 1위는 의도파악 정확성(9.5%)이며, NPS영향도 최상위기관인 우리은행 대비 1.9%p 높고 벤치마크사인 하나은행 대비 1.5%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 답변 신속성(4.4%)이고 비추천이유 1위는 의도파악 정확성(5.1%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "F4",
+                    "gvrnMsgCtnt": "콜봇상담 단계의 고객감정지수(NSS)는 -9.5이며, 벤치마크사인 하나은행 대비 -6.3 낮고, 부정비중은 6.4 높음\n\n콜봇상담 단계의 고객불만지수(CCI)는 47.6이며, 벤치마크사인 하나은행 대비 14.3 높고, 개선비중은 3.2 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "D1",
+                    "gvrnMsgCtnt": "KB국민은행 직원상담 NPS는 27.5로 전체 2위이며, 직상위기관인 토스뱅크보다 7.3 낮고 시장평균 대비 1.6 높음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 22.9%로 최상위기관인 토스뱅크보다 3.2%p 높음 토스뱅크 대비 3.2%p 높음."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "D2",
+                    "gvrnMsgCtnt": "직원상담 단계에서 KB국민은행의 응답률 1위는 업무지식의 전문성(28.7%)이며, NPS영향도 최상위기관은 KB국민은행으로 나타났고·벤치마크사인 하나은행 대비 -0.2%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 업무지식의 전문성(18.1%)이고 비추천이유 1위는 경청 및 의도파악(5.3%)."
+                },
+                {
+                    "baseYm": "202601",
+                    "baseDt": "20260118001710",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "D4",
+                    "gvrnMsgCtnt": "직원상담 단계의 고객감정지수(NSS)는 16.2이며, 벤치마크사인 하나은행 대비 -6.2 낮고, 부정비중은 4.4 높음\n\n직원상담 단계의 고객불만지수(CCI)는 33.2이며, 벤치마크사인 하나은행 대비 5.6 높고, 개선비중은 0.2 높음",
+                    "gvrnMsgDetailCtnt": ""
+                }
+            ]
+        }
+    }
+}

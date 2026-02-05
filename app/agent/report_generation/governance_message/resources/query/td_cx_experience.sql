@@ -1,0 +1,61 @@
+WITH CH_NPS AS (
+    SELECT
+          조사년도
+        , 반기구분명
+        , 채널명
+        , 거래은행명
+        , ROUND(NPS점수, 1) AS NPS
+        , RANK() OVER (
+              PARTITION BY 조사년도, 반기구분명, 채널명
+              ORDER BY NPS점수 DESC
+          ) AS NPS순위
+    FROM inst1.TSCCVMGC1 t1
+    WHERE 1=1
+      AND 거래은행명 != '시장평균'
+      AND 조사년도 = '{{survey_year}}'
+      AND 반기구분명 = '{{semester}}'
+),
+BENCH AS (
+    SELECT
+          all_bk.조사년도
+        , all_bk.반기구분명
+        , all_bk.채널명
+        , MAX(CASE WHEN all_bk.거래은행명 != 'KB국민은행' THEN all_bk.거래은행명 END) AS 벤치마크사
+    FROM CH_NPS all_bk
+    LEFT JOIN (
+        SELECT
+              채널명 AS 채널구분_KB
+            , NPS순위 - 1 AS NPS순위key
+        FROM CH_NPS
+        WHERE 거래은행명 = 'KB국민은행'
+    ) kb
+       ON all_bk.채널명 = kb.채널구분_KB
+    WHERE all_bk.거래은행명 = 'KB국민은행'
+       OR all_bk.NPS순위 = kb.NPS순위key
+    GROUP BY 1, 2, 3
+)
+SELECT 
+    A.기준년월일,
+    A.설문ID,
+    A.설문조사방식명 AS 설문조사방식구분,
+    A.설문조사종류명 AS 설문조사종류구분,
+    A.조사년도,
+    A.반기구분명 AS 반기구분,
+    A.설문참여대상자고유ID,
+    A.문항ID,
+    A.거래은행명 AS 거래은행구분,
+    A.채널명 AS 채널구분,
+    A.고객경험단계명 AS 고객경험단계구분,
+    A.VOC유형명 AS VOC유형구분,
+    A.VOC감정명 AS VOC감정구분,
+    A.서비스품질명 AS 서비스품질요소명,
+    A.VOC원문내용 AS VOC원문,
+    COALESCE(B.벤치마크사, '-') AS 벤치마크은행구분
+FROM inst1.TSCCVMGD3 A
+    LEFT JOIN BENCH AS B
+    ON A.채널명 = B.채널명
+WHERE A.채널명 = '{{channel_type}}'	/* {{channel_type}}은행/브랜드/플랫폼/대면채널/고객센터/상품 */
+AND A.조사년도 = '{{survey_year}}' /* {{survey_year}}조사년도 */
+AND A.반기구분명 = '{{semester}}' /* {{semester}}상반기/하반기 */
+AND A.고객경험단계명 = '{{customer_experience_stage}}' /* {{customer_experience_stage}}채널 단위 */
+;

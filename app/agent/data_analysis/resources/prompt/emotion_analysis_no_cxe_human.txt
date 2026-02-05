@@ -1,0 +1,15 @@
+## 입력:
+        
+**문항 질문**
+{rcmdn_resn_qsitm_name}
+{rcmdn_resn_qsitm_desc}
+
+---
+
+**문항 응답내용**
+{rcmdn_resn_qsitm_content}
+
+---
+
+**VOC 원문**
+{voc_content}

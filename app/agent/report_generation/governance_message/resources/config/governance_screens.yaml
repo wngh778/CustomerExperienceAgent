@@ -1,0 +1,1688 @@
+screens:
+  top_down:
+    _params: 
+      survey_year: 2025
+      semester: 상반기
+    _code:
+      설문조사방식구분: '01'
+      설문조사종류구분: '01'
+      설문조사대상구분: '99'
+      거버넌스구분: '99'
+
+    은행:
+      _params:
+        channel_type: 은행
+      _code:
+        설문조사대상구분: '00'
+      NPS진단:
+        NPS진단:
+          query_id: td_nps
+          template: TD_NPS진단_NPS진단
+          _code:
+            거버넌스구분: '83'
+        NPS영향요인:
+          query_id: 
+            - td_factor
+            - td_ipa
+          template: TD_NPS진단_NPS영향요인
+          _code:
+            거버넌스구분: '04'
+
+    브랜드:
+      _params:
+        channel_type: 브랜드
+      _code:
+        설문조사대상구분: '01'
+      결과요약:
+        NPS진단:
+          query_id: 
+            - td_nps
+            - td_cx_nps_summary
+          template: TD_요약_NPS진단
+          _code:
+            거버넌스구분: '73'
+        문제영역:
+          query_id: td_ipa
+          template: TD_요약_문제영역
+          _code:
+            거버넌스구분: '74'
+          
+      NPS진단:
+        NPS진단:
+          query_id: td_nps
+          template: TD_NPS진단_NPS진단
+          _code: 
+            거버넌스구분: '83'
+        NPS영향요인:
+          query_id: 
+            - td_factor
+            - td_ipa
+          template: TD_NPS진단_NPS영향요인
+          _code: 
+            거버넌스구분: '04'
+    
+      고객경험단계:
+        NPS진단:
+          query_id: td_cx_nps_summary
+          template: TD_고객경험_NPS진단
+          _code:
+           거버넌스구분: '84'
+          
+        고객중심:
+          _params:
+            customer_experience_stage: 고객중심
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code: 
+              거버넌스구분: A1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code: 
+              거버넌스구분: A2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code: 
+              거버넌스구분: A4
+            
+        전문성:
+          _params:
+            customer_experience_stage: 전문성
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: B1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: B2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: B4
+
+        혁신주도(미래가치):
+          _params:
+            customer_experience_stage: 혁신주도(미래가치)
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: C1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: C2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: C4
+            
+        신뢰정직:
+          _params:
+            customer_experience_stage: 신뢰정직
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: D1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: D2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: D4
+            
+        동반성장(ESG):
+          _params:
+            customer_experience_stage: 동반성장(ESG)
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: E1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: E2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: E4
+            
+        고객소통:
+          _params:
+            customer_experience_stage: 고객소통
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: F1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: F2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: F4
+      
+      문제영역:
+        query_id: td_ipa
+        template: TD_문제영역
+        _code:
+          거버넌스구분: '80'
+
+    플랫폼:
+      _params:
+        channel_type: 플랫폼
+      _code:
+        설문조사대상구분: '02'
+      결과요약:
+        NPS진단:
+          query_id: 
+            - td_nps
+            - td_cx_nps_summary
+          template: TD_요약_NPS진단
+          _code:
+            거버넌스구분: '73'
+        문제영역:
+          query_id: td_ipa
+          template: TD_요약_문제영역
+          _code:
+            거버넌스구분: '74'
+          
+      NPS진단:
+        NPS진단:
+          query_id: td_nps
+          template: TD_NPS진단_NPS진단
+          _code: 
+            거버넌스구분: '83'
+        NPS영향요인:
+          query_id: 
+            - td_factor
+            - td_ipa
+          template: TD_NPS진단_NPS영향요인
+          _code: 
+            거버넌스구분: '04'
+
+      고객경험단계:
+        NPS진단:
+          query_id: td_cx_nps_summary
+          template: TD_고객경험_NPS진단
+          _code:
+           거버넌스구분: '84'
+          
+        로그인/인증:
+          _params:
+            customer_experience_stage: 로그인/인증
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: A1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: A2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: A4
+            
+        홈화면:
+          _params:
+            customer_experience_stage: 홈화면
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: B1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: B2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: B4
+
+        계좌조회/이체:
+          _params:
+            customer_experience_stage: 계좌조회/이체
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: F1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: F2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: F4
+            
+        통합검색:
+          _params:
+            customer_experience_stage: 통합검색
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: C1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: C2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: C4
+            
+        금융상품몰:
+          _params:
+            customer_experience_stage: 금융상품몰
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: D1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: D2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: D4
+            
+        상품가입:
+          _params:
+            customer_experience_stage: 상품가입
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: E1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: E2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: E4
+            
+        상품관리/해지:
+          _params:
+            customer_experience_stage: 상품관리/해지
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: G1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: G2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: G4
+            
+        콘텐츠/서비스:
+          _params:
+            customer_experience_stage: 콘텐츠/서비스
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: H1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: H2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: H4
+                     
+      문제영역:
+        query_id: td_ipa
+        template: TD_문제영역
+        _code:
+          거버넌스구분: '80'
+            
+    대면채널:
+      _params:
+        channel_type: 대면채널
+      _code:
+        설문조사대상구분: '03'
+      결과요약:
+        NPS진단:
+          query_id: 
+            - td_nps
+            - td_cx_nps_summary
+          template: TD_요약_NPS진단
+          _code:
+            거버넌스구분: '73'
+        문제영역:
+          query_id: td_ipa
+          template: TD_요약_문제영역
+          _code:
+            거버넌스구분: '74'
+      NPS진단:
+        NPS진단:
+          query_id: td_nps
+          template: TD_NPS진단_NPS진단
+          _code: 
+            거버넌스구분: '83'
+        NPS영향요인:
+          query_id: 
+            - td_factor
+            - td_ipa
+          template: TD_NPS진단_NPS영향요인
+          _code: 
+            거버넌스구분: '04'
+
+      고객경험단계:
+        NPS진단:
+          query_id: td_cx_nps_summary
+          template: TD_고객경험_NPS진단
+          _code:
+           거버넌스구분: '84'
+          
+        내점/방문:
+          _params:
+            customer_experience_stage: 내점/방문
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: A1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: A2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: A4
+            
+        대기:
+          _params:
+            customer_experience_stage: 대기
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: B1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: B2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: B4
+
+        맞이/의도파악:
+          _params:
+            customer_experience_stage: 맞이/의도파악
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: C1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: C2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: C4
+            
+        직원상담:
+          _params:
+            customer_experience_stage: 직원상담
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: E1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: E2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: E4
+            
+        업무처리/배웅:
+          _params:
+            customer_experience_stage: 업무처리/배웅
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: D1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: D2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: D4
+                     
+      문제영역:
+        query_id: td_ipa
+        template: TD_문제영역
+        _code:
+          거버넌스구분: '80'
+
+    고객센터:
+      _params:
+        channel_type: 고객센터
+      _code:
+        설문조사대상구분: '04'
+      결과요약:
+        NPS진단:
+          query_id: 
+            - td_nps
+            - td_cx_nps_summary
+          template: TD_요약_NPS진단
+          _code:
+            거버넌스구분: '73'
+        문제영역:
+          query_id: td_ipa
+          template: TD_요약_문제영역
+          _code:
+            거버넌스구분: '74'
+      NPS진단:
+        NPS진단:
+          query_id: td_nps
+          template: TD_NPS진단_NPS진단
+          _code: 
+            거버넌스구분: '83'
+        NPS영향요인:
+          query_id: 
+            - td_factor
+            - td_ipa
+          template: TD_NPS진단_NPS영향요인
+          _code: 
+            거버넌스구분: '04'
+
+      고객경험단계:
+        NPS진단:
+          query_id: td_cx_nps_summary
+          template: TD_고객경험_NPS진단
+          _code:
+           거버넌스구분: '84'
+          
+        버튼식ARS:
+          _params:
+            customer_experience_stage: 버튼식ARS
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: B1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: B2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: B4
+            
+        보이는ARS:
+          _params:
+            customer_experience_stage: 보이는ARS
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: C1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: C2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: C4
+
+        대기:
+          _params:
+            customer_experience_stage: 대기
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: A1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: A2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: A4
+            
+        챗봇상담:
+          _params:
+            customer_experience_stage: 챗봇상담
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: E1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: E2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: E4
+            
+        콜봇상담:
+          _params:
+            customer_experience_stage: 콜봇상담
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: F1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: F2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: F4
+                                
+        직원상담:
+          _params:
+            customer_experience_stage: 직원상담
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: D1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: D2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: D4
+
+      문제영역:
+        query_id: td_ipa
+        template: TD_문제영역
+        _code:
+          거버넌스구분: '80'
+
+    상품:
+      _params:
+        channel_type: 상품
+      _code:
+        설문조사대상구분: '05'
+      결과요약:
+        NPS진단:
+          query_id: 
+            - td_nps
+            - td_cx_nps_summary
+          template: TD_요약_NPS진단
+          _code:
+            거버넌스구분: '73'
+        문제영역:
+          query_id: td_ipa
+          template: TD_요약_문제영역
+          _code:
+            거버넌스구분: '74'
+      NPS진단:
+        NPS진단:
+          query_id: td_nps
+          template: TD_NPS진단_NPS진단
+          _code: 
+            거버넌스구분: '83'
+        NPS영향요인:
+          query_id: 
+            - td_factor
+            - td_ipa
+          template: TD_NPS진단_NPS영향요인
+          _code: 
+            거버넌스구분: '04'
+
+      고객경험단계:
+        NPS진단:
+          query_id: td_cx_nps_summary
+          template: TD_고객경험_NPS진단
+          _code:
+           거버넌스구분: '84'
+          
+        저축성:
+          _params:
+            customer_experience_stage: 저축성
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: A1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: A2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: A4
+            
+        여신성:
+          _params:
+            customer_experience_stage: 여신성
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: B1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: B2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: B4
+
+        투자성:
+          _params:
+            customer_experience_stage: 투자성
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: C1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: C2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: C4
+            
+        보장성:
+          _params:
+            customer_experience_stage: 보장성
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: D1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: D2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: D4
+            
+        외화환전:
+          _params:
+            customer_experience_stage: 외화환전
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: E1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: E2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: E4
+                                
+        해외송금:
+          _params:
+            customer_experience_stage: 해외송금
+          NPS진단:
+            query_id: td_cx_nps
+            template: TD_고객경험_고객경험_NPS진단
+            _code:
+              거버넌스구분: F1
+          영향요인:
+            query_id: 
+              - td_cx_factor
+              - td_cx_ipa
+            template: TD_고객경험_고객경험_영향요인
+            _code:
+              거버넌스구분: F2
+          고객감정분석:
+            query_id:
+              - td_cx_emotion_nss
+              - td_cx_emotion_ccs
+            template: TD_고객경험_고객경험_고객감정
+            _code:
+              거버넌스구분: F4
+
+      문제영역:
+        query_id: td_ipa
+        template: TD_문제영역
+        _code:
+          거버넌스구분: '80'
+
+  bottom_up:
+    _params: 
+      survey_year: 2025
+      survey_month: 12
+      customer_experience_stage: ''
+      factor_customer_experience_stage: ''
+    _code:
+      설문조사방식구분: '02'
+      설문조사종류구분: '03'
+      설문조사대상구분: '99'
+      거버넌스구분: '99'
+    
+    KB 스타뱅킹:
+      _params:
+        channel_type: KB 스타뱅킹
+      _code:
+        설문조사대상구분: '06'
+      조사요약:
+        NPS진단:
+          query_id:
+            - bu_cha_nps_total
+            - bu_cha_nps_month
+            - bu_cx_nps_total
+            - bu_cx_nps_month
+            - bu_voc_total
+            - bu_voc_month
+          template: BU_요약_NPS진단
+          _code:
+            거버넌스구분: '73'
+      
+      채널NPS:
+        NPS분석:
+          query_id: 
+            - bu_cha_nps_total
+            - bu_cha_nps_month
+            - bu_cha_factor_total
+            - bu_cha_factor_month
+          template: BU_채널NPS_NPS분석
+          _code:
+            거버넌스구분: '95'
+      
+      고객경험단계:
+        로그인/인증:
+          _params:
+            customer_experience_stage: 로그인/인증 NPS
+            factor_customer_experience_stage: 로그인/인증
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: A1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: A3
+        
+        홈화면:
+          _params:
+            customer_experience_stage: 홈화면 NPS
+            factor_customer_experience_stage: 홈화면
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: B1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: B3
+        
+        계좌조회/이체:
+          _params:
+            customer_experience_stage: 계좌조회/이체 NPS
+            factor_customer_experience_stage: 계좌조회/이체
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: C1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: C3
+        
+        통합검색:
+          _params:
+            customer_experience_stage: 통합검색 NPS
+            factor_customer_experience_stage: 통합검색
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: D1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: D3
+        
+        금융상품몰:
+          _params:
+            customer_experience_stage: 금융상품몰 NPS
+            factor_customer_experience_stage: 금융상품몰
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: E1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: E3
+        
+        상품가입:
+          _params:
+            customer_experience_stage: 상품가입 NPS
+            factor_customer_experience_stage: 상품가입
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: F1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: F3
+        
+        상품관리/해지:
+          _params:
+            customer_experience_stage: 상품관리/해지 NPS
+            factor_customer_experience_stage: 상품관리/해지
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: G1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: G3
+        
+        콘텐츠/서비스:
+          _params:
+            customer_experience_stage: 콘텐츠/서비스 NPS
+            factor_customer_experience_stage: 콘텐츠/서비스
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: H1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: H3
+      
+      문제원인:
+        query_id: 
+          - bu_cx_factor_total
+          - bu_cx_factor_month
+        template: BU_문제원인
+        _code:
+          거버넌스구분: '72'
+
+    영업점:
+      _params:
+        channel_type: 영업점
+      _code:
+        설문조사대상구분: '07'
+      조사요약:
+        NPS진단:
+          query_id:
+            - bu_cha_nps_total
+            - bu_cha_nps_month
+            - bu_cx_nps_total
+            - bu_cx_nps_month
+            - bu_voc_total
+            - bu_voc_month
+          template: BU_요약_NPS진단
+          _code:
+            거버넌스구분: '73'
+      
+      채널NPS:
+        NPS분석:
+          query_id: 
+            - bu_cha_nps_total
+            - bu_cha_nps_month
+            - bu_cha_factor_total
+            - bu_cha_factor_month
+          template: BU_채널NPS_NPS분석
+          _code:
+            거버넌스구분: '95'
+      
+      고객경험단계:
+        내점/방문:
+          _params:
+            customer_experience_stage: 내점/방문 NPS
+            factor_customer_experience_stage: 내점/방문
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: A1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: A3
+        
+        대기:
+          _params:
+            customer_experience_stage: 대기 NPS
+            factor_customer_experience_stage: 대기
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: B1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: B3
+        
+        맞이/의도파악:
+          _params:
+            customer_experience_stage: 맞이/의도파악 NPS
+            factor_customer_experience_stage: 맞이/의도파악
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: C1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: C3
+        
+        직원상담:
+          _params:
+            customer_experience_stage: 직원상담 NPS
+            factor_customer_experience_stage: 직원상담
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: E1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: E3
+        
+        업무처리/배웅:
+          _params:
+            customer_experience_stage: 업무처리/배웅 NPS
+            factor_customer_experience_stage: 업무처리/배웅
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: D1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: D3
+      
+      문제원인:
+        query_id: 
+          - bu_cx_factor_total
+          - bu_cx_factor_month
+        template: BU_문제원인
+        _code:
+          거버넌스구분: '72'
+
+      
+
+    고객센터:
+      _params:
+        channel_type: 고객센터
+      _code:
+        설문조사대상구분: '08'
+      조사요약:
+        NPS진단:
+          query_id:
+            - bu_cha_nps_total
+            - bu_cha_nps_month
+            - bu_cx_nps_total
+            - bu_cx_nps_month
+            - bu_voc_total
+            - bu_voc_month
+          template: BU_요약_NPS진단
+          _code:
+            거버넌스구분: '73'
+      
+      채널NPS:
+        NPS분석:
+          query_id: 
+            - bu_cha_nps_total
+            - bu_cha_nps_month
+            - bu_cha_factor_total
+            - bu_cha_factor_month
+          template: BU_채널NPS_NPS분석
+          _code:
+            거버넌스구분: '95'
+      
+      고객경험단계:
+        버튼식ARS:
+          _params:
+            customer_experience_stage: 버튼식ARS NPS
+            factor_customer_experience_stage: 버튼식ARS
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: B1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: B3
+        
+        보이는ARS:
+          _params:
+            customer_experience_stage: 보이는ARS NPS
+            factor_customer_experience_stage: 보이는ARS
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: C1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: C3
+        
+        대기:
+          _params:
+            customer_experience_stage: 대기 NPS
+            factor_customer_experience_stage: 대기
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: A1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: A3
+        
+        챗봇상담:
+          _params:
+            customer_experience_stage: 챗봇상담 NPS
+            factor_customer_experience_stage: 챗봇상담
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: E1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: E3
+        
+        콜봇상담:
+          _params:
+            customer_experience_stage: 콜봇상담 NPS
+            factor_customer_experience_stage: 콜봇상담
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: F1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: F3
+        
+        직원상담:
+          _params:
+            customer_experience_stage: 직원상담 NPS
+            factor_customer_experience_stage: 직원상담
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: D1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: D3
+      
+      문제원인:
+        query_id: 
+          - bu_cx_factor_total
+          - bu_cx_factor_month
+        template: BU_문제원인
+        _code:
+          거버넌스구분: '72'
+
+      
+
+    상품:
+      _params:
+        channel_type: 상품
+      _code:
+        설문조사대상구분: '09'
+      조사요약:
+        NPS진단:
+          query_id:
+            - bu_cha_nps_total
+            - bu_cha_nps_month
+            - bu_cx_nps_total
+            - bu_cx_nps_month
+            - bu_voc_total
+            - bu_voc_month
+          template: BU_요약_NPS진단
+          _code:
+            거버넌스구분: '73'
+      
+      채널NPS:
+        NPS분석:
+          query_id: 
+            - bu_cha_nps_total
+            - bu_cha_nps_month
+            - bu_cha_factor_total
+            - bu_cha_factor_month
+          template: BU_채널NPS_NPS분석
+          _code:
+            거버넌스구분: '95'
+      
+      고객경험단계:
+        저축성:
+          _params:
+            customer_experience_stage: 저축성 NPS
+            factor_customer_experience_stage: 저축성
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: A1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: A3
+        
+        여신성:
+          _params:
+            customer_experience_stage: 여신성 NPS
+            factor_customer_experience_stage: 여신성
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: B1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: B3
+        
+        투자성:
+          _params:
+            customer_experience_stage: 투자성 NPS
+            factor_customer_experience_stage: 투자성
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: C1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: C3
+        
+        보장성:
+          _params:
+            customer_experience_stage: 보장성 NPS
+            factor_customer_experience_stage: 보장성
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: D1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: D3
+            
+        
+        외화환전:
+          _params:
+            customer_experience_stage: 외화환전 NPS
+            factor_customer_experience_stage: 외화환전
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: E1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: E3
+        
+        해외송금:
+          _params:
+            customer_experience_stage: 해외송금 NPS
+            factor_customer_experience_stage: 해외송금
+          NPS분석:
+            query_id: 
+              - bu_cx_nps_total
+              - bu_cx_nps_month
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_NPS분석
+            _code:
+              거버넌스구분: F1
+
+          품질요소진단:
+            query_id: 
+              - bu_cx_factor_total
+              - bu_cx_factor_month
+            template: BU_고객경험_고객경험_품질요소
+            _code:
+              거버넌스구분: F3
+      
+      문제원인:
+        query_id: 
+          - bu_cx_factor_total
+          - bu_cx_factor_month
+        template: BU_문제원인
+        _code:
+          거버넌스구분: '72'

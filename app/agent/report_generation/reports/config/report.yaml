@@ -1,0 +1,138 @@
+briefing:
+    reports:
+        report_name: 'td_nps_report'
+        categories:
+            은행:
+                NPS현황:
+                    query_id: 'TD_은행_01'
+                    prompt_id: 'TD_은행_01_prompt'
+                NPS영향요인:
+                    query_id: 'TD_은행_02'
+                    prompt_id: 'TD_은행_02_prompt'
+                고객불만지수:
+                    query_id: 'TD_은행_03'
+                    prompt_id: 'TD_은행_03_prompt'
+            브랜드:
+                NPS진단:
+                    청크1:
+                        query_id: 'TD_채널_01_1'
+                        prompt_id : 'TD_채널_01_1_prompt'
+                    청크2:
+                        query_id:
+                            - 'TD_채널_01_2'
+                            - 'TD_채널_01_3'
+                        prompt_id : 'TD_채널_01_2_prompt'
+                    청크4:
+                        query_id: 'TD_채널_01_4'
+                        prompt_id : 'TD_채널_01_4_prompt'
+                서비스품질진단:
+                    청크1:
+                        query_id: 'TD_채널_02_1'
+                        prompt_id: 'TD_채널_02_1_prompt'
+                    청크2:
+                        query_id: 'TD_채널_02_2'
+                        prompt_id: 'TD_채널_02_2_prompt'
+                고객불만지수:
+                    청크1:
+                        query_id: 'TD_채널_03_1'
+                        prompt_id: 'TD_채널_03_1_prompt'
+
+            플랫폼:
+                NPS진단:
+                    청크1:
+                        query_id: 'TD_채널_01_1'
+                        prompt_id : 'TD_채널_01_1_prompt'
+                    청크2:
+                        query_id:
+                            - 'TD_채널_01_2'
+                            - 'TD_채널_01_3'
+                        prompt_id : 'TD_채널_01_2_prompt'
+                    청크4:
+                        query_id: 'TD_채널_01_4'
+                        prompt_id : 'TD_채널_01_4_prompt'
+                서비스품질진단:
+                    청크1:
+                        query_id: 'TD_채널_02_1'
+                        prompt_id: 'TD_채널_02_1_prompt'
+                    청크2:
+                        query_id: 'TD_채널_02_2'
+                        prompt_id: 'TD_채널_02_2_prompt'
+                고객불만지수:
+                    청크1:
+                        query_id: 'TD_채널_03_1'
+                        prompt_id: 'TD_채널_03_1_prompt'
+
+            대면채널:
+                NPS진단:
+                    청크1:
+                        query_id: 'TD_채널_01_1'
+                        prompt_id : 'TD_채널_01_1_prompt'
+                    청크2:
+                        query_id:
+                            - 'TD_채널_01_2'
+                            - 'TD_채널_01_3'
+                        prompt_id : 'TD_채널_01_2_prompt'
+                    청크4:
+                        query_id: 'TD_채널_01_4'
+                        prompt_id : 'TD_채널_01_4_prompt'
+                서비스품질진단:
+                    청크1:
+                        query_id: 'TD_채널_02_1'
+                        prompt_id: 'TD_채널_02_1_prompt'
+                    청크2:
+                        query_id: 'TD_채널_02_2'
+                        prompt_id: 'TD_채널_02_2_prompt'
+                고객불만지수:
+                    청크1:
+                        query_id: 'TD_채널_03_1'
+                        prompt_id: 'TD_채널_03_1_prompt'
+
+            고객센터:
+                NPS진단:
+                    청크1:
+                        query_id: 'TD_채널_01_1'
+                        prompt_id : 'TD_채널_01_1_prompt'
+                    청크2:
+                        query_id:
+                            - 'TD_채널_01_2'
+                            - 'TD_채널_01_3'
+                        prompt_id : 'TD_채널_01_2_prompt'
+                    청크4:
+                        query_id: 'TD_채널_01_4'
+                        prompt_id : 'TD_채널_01_4_prompt'
+                서비스품질진단:
+                    청크1:
+                        query_id: 'TD_채널_02_1'
+                        prompt_id: 'TD_채널_02_1_prompt'
+                    청크2:
+                        query_id: 'TD_채널_02_2'
+                        prompt_id: 'TD_채널_02_2_prompt'
+                고객불만지수:
+                    청크1:
+                        query_id: 'TD_채널_03_1'
+                        prompt_id: 'TD_채널_03_1_prompt'
+
+            상품:
+                NPS진단:
+                    청크1:
+                        query_id: 'TD_채널_01_1'
+                        prompt_id : 'TD_채널_01_1_prompt'
+                    청크2:
+                        query_id:
+                            - 'TD_채널_01_2'
+                            - 'TD_채널_01_3'
+                        prompt_id : 'TD_채널_01_2_prompt'
+                    청크4:
+                        query_id: 'TD_채널_01_4'
+                        prompt_id : 'TD_채널_01_4_prompt'
+                서비스품질진단:
+                    청크1:
+                        query_id: 'TD_채널_02_1'
+                        prompt_id: 'TD_채널_02_1_prompt'
+                    청크2:
+                        query_id: 'TD_채널_02_2'
+                        prompt_id: 'TD_채널_02_2_prompt'
+                고객불만지수:
+                    청크1:
+                        query_id: 'TD_채널_03_1'
+                        prompt_id: 'TD_채널_03_1_prompt'

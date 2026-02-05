@@ -1,0 +1,12 @@
+KB국민은행{% if 채널명 !="" %} {{ 채널명 }}{% endif %} NPS는 {{ NPS }}점이며 {{ 순위 }}위로 나타남.
+{detailContents}
+- 벤치마크사인 {{ 벤치마크사명 }} 대비 {{ 벤치마크사_NPS_차이 | float | abs }}점 {{ 벤치마크사_NPS_플래그 }}, 시장평균 대비 {{ 시장평균_NPS_차이 | float | abs }}점 {{ 시장평균_NPS_플래그 }}.
+{# 비추천비중은 {{ 비추천비중 }}%이며 {{ 벤치마크사명 }} 대비 {{벤치마크사_비추천비중_차이 | float | abs }}%p {{ 비추천비중_플래그 }}. #}
+- {{ GAP_CX }} NPS는 {{ GAP_CX_NPS }}점이며, 벤치마크사인 {{ 벤치마크사명 }} 대비 {{ 벤치마크사_차이 | float | abs }}점으로 가장 큰 열위를 보임.
+{% if CX_NPS_0점이하 %}
+  {% set parts = [] %}
+  {% for cx, nps in CX_NPS_0점이하 %}
+    {% set _ = parts.append(cx ~ " NPS는 " ~ nps) %}
+  {% endfor %}
+  {{ parts | join("점, ") }}으로 0점 이하로 나타남.
+{% endif %}
