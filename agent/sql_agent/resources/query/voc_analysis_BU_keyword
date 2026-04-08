@@ -1,0 +1,7 @@
+SELECT 
+    기준년월일, 채널명 AS 채널, 고객경험단계명 AS 고객경험단계, VOC원문내용 AS 원문
+FROM inst1.TSCCVMGF4
+WHERE 
+    VOC원문내용 like '%{keyword}%' AND 
+    LENGTH(REPLACE(VOC원문내용, ' ', '')) BETWEEN 10 AND 200 
+ORDER BY 기준년월일 desc

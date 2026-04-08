@@ -1,2 +1,0 @@
-{{ GAP_CX }} NPS는 {{ GAP_CX_NPS }}로 벤치마크사인 {{ 벤치마크사명 }} 대비 {{ 벤치마크사_차이 | float | abs }}로 가장 큰 열위를 보임.
-{% if CX_NPS_0점이하 %}{% set parts = [] %}{% for cx, nps in CX_NPS_0점이하 %}{% set _ = parts.append(cx ~ " NPS는 " ~ nps) %}{% endfor %}{{ parts | join(", ") }}로 0점 이하인 영역으로 나타남.{% endif %}

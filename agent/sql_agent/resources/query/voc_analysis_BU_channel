@@ -1,0 +1,43 @@
+WITH DataWithRowNumbers AS (
+        SELECT 
+            채널명,
+            고객경험단계명, 
+            서비스품질명,
+            VOC원문내용,
+            기준년월일,
+            ROW_NUMBER() OVER (PARTITION BY 서비스품질명 ORDER BY RAND()) AS RowNum,
+            COUNT(*) OVER (PARTITION BY 서비스품질명) AS TotalCount
+        FROM inst1.TSCCVMGF4
+        WHERE 
+            채널명 = '{channel_name}' AND
+            기준년월일 >= '{start_date}' AND
+            '{end_date}' >= 기준년월일 AND
+            LENGTH(REPLACE(VOC원문내용, ' ', '')) BETWEEN 10 AND 200
+    ),
+    SampledData AS (
+        SELECT 
+            채널명,
+            고객경험단계명, 
+            서비스품질명,
+            VOC원문내용,
+            기준년월일,
+            RowNum,
+            TotalCount,
+            {sample_size} AS SampleSize
+        FROM DataWithRowNumbers
+    ),
+    FinalSample AS (
+        SELECT 
+            채널명,
+            고객경험단계명, 
+            서비스품질명,
+            VOC원문내용,
+            기준년월일
+        FROM SampledData
+        WHERE RowNum <= SampleSize
+    )
+    SELECT 
+        고객경험단계명 AS 고객경험단계, 
+        GROUP_CONCAT(VOC원문내용, '|') AS 원문 
+    FROM FinalSample
+    GROUP BY 채널명, 고객경험단계명

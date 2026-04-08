@@ -1,1 +1,0 @@
-from .voc_filter import VocFilter

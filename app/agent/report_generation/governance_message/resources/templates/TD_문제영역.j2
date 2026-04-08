@@ -1,9 +1,0 @@
-{% if 중점개선 %}
-중점개선 영역은 {% for item in 중점개선 %}
-{{ item.영향요인구분 }}{% if not loop.last %}, {% endif %}{% endfor %} 단계로 NPS중요도는 {% for item in 중점개선 %}
-{{ item.NPS중요도 }}{% if not loop.last %}, {% endif %}{% endfor %}이며, 벤치마크 대비 NPS Gap은 벤치마크사인 {{ 벤치마크사명 }} 대비 {% for item in 중점개선 %}{{ item.NPS영향도GAP | float | abs }}{% if not loop.last %}, {% endif %}{% endfor %} 낮음.
-{% endif %}
-{detailContents}
-{% if 점진개선 %}
-- 점진개선 영역은 {% for item in 점진개선 %}{{ item.영향요인구분 }}{% if not loop.last %}, {% endif %}{% endfor %} 단계로 NPS중요도는 {% for item in 점진개선 %}
-{{ item.NPS중요도 }}{% if not loop.last %}, {% endif %}{% endfor %}이며, 벤치마크 대비 NPS Gap은 벤치마크사인 {{ 벤치마크사명 }} 대비 {% for item in 점진개선 %}{{ item.NPS영향도GAP | float | abs }}{% if not loop.last %}, {% endif %}{% endfor %} 낮음.{% endif %}

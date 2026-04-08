@@ -1,5 +1,0 @@
-<input_data>
-<voc_list>
-{voc_list}
-</voc_list>
-</input_data>

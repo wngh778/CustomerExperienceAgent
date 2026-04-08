@@ -1,0 +1,125 @@
+SELECT  A.설문ID
+      , A.문항ID
+      , A.문항구분
+      , A.질문의도대구분
+      , A.질문의도중구분
+      , A.복수선택여부
+      , A.평가점수구간
+      , A.NPS환산대상여부
+      , A.문항내용
+      , A.문항선택항목
+      , A.응답자수
+      , CASE WHEN A.문항구분 <> '서술형' THEN ROUND(A.응답자수/SUM(A.응답자수) OVER(PARTITION BY A.설문ID,A.문항ID)*100,1) END AS 응답비중
+      , CASE WHEN A.문항구분 =  '서술형' THEN A.서술형원문모음 END AS 서술형원문모음  
+  FROM (SELECT  A.설문ID
+              , A.문항ID
+              , B.문항내용
+              , MAX(CAST(TRIM(C1.인스턴스내용) AS CHAR)) AS 문항구분
+              , MAX(CAST(TRIM(C2.인스턴스내용) AS CHAR)) AS 질문의도대구분
+              , MAX(CAST(TRIM(C3.인스턴스내용) AS CHAR)) AS 질문의도중구분
+              , MAX(CASE WHEN B.문항구분 = '07' THEN B.복수선택사용여부 END) AS 복수선택여부
+              , B.평가점수구간
+              , MAX(
+                CASE WHEN B.문항내용 LIKE '%추천%'
+                      AND B.문항구분 IN ('04','05')
+                      AND B.점수시작구분 = '0'
+                      AND B.점수종료구분 = '10'
+                     THEN '1'
+                     ELSE '0'
+                END) AS NPS환산대상여부
+              , CASE WHEN A.문항구분 IN ('04','05') THEN TRIM(A.문항응답내용) 
+                     WHEN A.문항구분 = '07'         THEN TRIM(B.문항선택항목내용)
+                     ELSE '서술형원문모음'
+                END AS 문항선택항목
+              , COUNT(*) AS 응답자수
+              , GROUP_CONCAT(REPLACE(REPLACE(TRIM(A.문항응답내용),'\n',' '),'\r',' ') SEPARATOR ' | ') AS 서술형원문모음
+              , MAX(B.문항정렬순서)     AS 문항정렬순서
+              , MAX(B.선택항목정렬순서) AS 선택항목정렬순서
+          FROM (SELECT  A.설문ID
+                      , A.설문참여대상자고유ID
+                      , A.문항ID
+                      , A.문항구분
+                      , A.문항선택항목ID
+                      , A.문항응답내용
+                  FROM  INST1.VSCCVSV73 A
+                 WHERE  A.설문조사종류구분 IN ('04','05')
+                   AND  A.설문ID = '{SURVEYID}'   /* ← 설문ID를 받아서 입력 */
+                   AND  TRIM(A.문항응답내용) <> ''
+                ) A
+        INNER JOIN
+               (SELECT  A.설문ID
+                      , TRIM(B1.설문제목명) AS 설문제목
+                      , B2.정렬순서 AS 문항정렬순서
+                      , B2.문항ID
+                      , B2.문항구분
+                      , CONCAT(REPLACE(REPLACE(TRIM(B2.문항제목명),'\n',' '),'\r',' ')
+                              ,CASE WHEN LENGTH(REPLACE(REPLACE(TRIM(B2.문항제목명),'\n',' '),'\r',' ')) > 0 THEN ' ' ELSE '' END
+                              ,REPLACE(REPLACE(TRIM(B2.문항설명내용),'\n',' '),'\r',' ')) AS 문항내용
+                      , CASE WHEN B2.문항구분 = '04' AND B4.평가유형크기구분 NOT IN ('','03')
+                             THEN CONCAT(TRIM(B4.시작라벨명),'~',TRIM(B4.종료라벨명),'(',B4.평가유형크기구분+0,'구간)')
+                             WHEN B2.문항구분 = '04' AND B4.평가유형크기구분 IN ('','03')
+                             THEN CONCAT(TRIM(B4.시작라벨명),'~',TRIM(B4.종료라벨명),'(',B4.점수종료구분 - B4.점수시작구분 + 1,'구간)')
+                             WHEN B2.문항구분 = '05'
+                             THEN CONCAT(TRIM(B4.시작라벨명),'~',TRIM(B4.종료라벨명),'(',B4.점수시작구분+0,'점~',B4.점수종료구분+0,'점)')
+                        END AS 평가점수구간
+                      , B3.정렬순서                    AS 선택항목정렬순서
+                      , COALESCE(B3.문항선택항목ID,'') AS 문항선택항목ID
+                      , REPLACE(REPLACE(TRIM(B3.선택항목명),'\n',' '),'\r',' ') AS 문항선택항목내용
+                      , B4.점수시작구분
+                      , B4.점수종료구분
+                      , B2.질문의도대구분
+                      , B2.질문의도중구분
+                      , B4.복수선택사용여부
+                      , B4.복수선택최소개수
+                      , B4.복수선택최대개수
+                  FROM  INST1.TSCCVSV11 A                                                                                                
+                INNER JOIN                                                                                                               
+                        INST1.TSCCVSV03 B1           /* 설문양식기본 */                                                                  
+                ON  (A.설문양식ID = B1.설문양식ID)                                                                                       
+                INNER JOIN                                                                                                               
+                        INST1.TSCCVSV04 B2           /* 설문문항기본 */                                                                  
+                ON  (A.설문양식ID = B2.설문양식ID                                                                                        
+                 AND B2.사용여부 = '1')                                                                                                  
+                LEFT OUTER JOIN                                                                                                          
+                        INST1.TSCCVSV07 B3           /* 설문문항기본 */                                                                  
+                ON  (A.설문양식ID = B3.설문양식ID                                                                                        
+                 AND B2.문항ID    = B3.문항ID                                                                                            
+                 AND B3.사용여부 = '1')                                                                                                  
+                LEFT OUTER JOIN                                                                                                          
+                        INST1.TSCCVSV08 B4                                                                                               
+                ON  (A.설문양식ID = B4.설문양식ID                                                                                        
+                 AND B2.문항ID =    B4.문항ID)                                                                                           
+                 WHERE  A.설문조사종류구분 IN ('04','05')       /* CASE조사(팬슈머조사 포함)   */                                        
+                   AND  B2.문항구분 IN ('01','04','05','07')    /* 서술형,평가형,점수형,선택형 */                                        
+                ) B
+        ON  (A.설문ID = B.설문ID
+         AND A.문항ID = B.문항ID
+         AND A.문항선택항목ID = B.문항선택항목ID)
+        LEFT OUTER JOIN
+                INST1.TSCCVCI04      C1
+        ON  (A.문항구분       = TRIM(C1.인스턴스코드)
+         AND                         C1.인스턴스식별자 = '142436000'
+         AND                         C1.유효종료년월일 = '99991231')
+        LEFT OUTER JOIN
+                INST1.TSCCVCI04      C2
+        ON  (B.질문의도대구분 = TRIM(C2.인스턴스코드)
+         AND                         C2.인스턴스식별자 = '142457000'
+         AND                         C2.유효종료년월일 = '99991231')
+        LEFT OUTER JOIN
+                INST1.TSCCVCI04      C3
+        ON  (B.질문의도중구분 = TRIM(C3.인스턴스코드)
+         AND                         C3.인스턴스식별자 = '142458000'
+         AND                         C3.유효종료년월일 = '99991231')
+        GROUP BY 
+                A.설문ID
+              , A.문항ID
+              , B.문항내용
+              , B.평가점수구간
+              , CASE WHEN A.문항구분 IN ('04','05') THEN TRIM(A.문항응답내용) 
+                     WHEN A.문항구분 = '07'         THEN TRIM(B.문항선택항목내용)
+                     ELSE '서술형원문모음'
+                END
+        ) A
+ORDER BY 
+        A.문항정렬순서    
+      , A.선택항목정렬순서

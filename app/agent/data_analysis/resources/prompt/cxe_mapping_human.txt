@@ -1,3 +1,0 @@
-<input_data>
-{voc_context}
-</input_data>
