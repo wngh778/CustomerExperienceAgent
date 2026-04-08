@@ -1,0 +1,890 @@
+{
+    "success": true,
+    "response": {
+        "metadata": {
+            "prcssMdelVsnId": "20",
+            "prcssYmYMS": "20260204000554"
+        },
+        "page": {
+            "pageNumber": 1,
+            "pageSize": 100,
+            "totalElements": 187,
+            "totalPages": 2,
+            "lastYn": true,
+            "firstYn": false,
+            "numberOfElements": 87,
+            "content": [
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "04",
+                    "gvrnDstcd": "80",
+                    "gvrnMsgCtnt": "중점개선 영역은 대기 단계로 NPS중요도는 39.4이며, 벤치마크 대비 NPS Gap은 벤치마크사인 하나은행 대비 3.4 낮음.",
+                    "gvrnMsgDetailCtnt": "- 점진개선 영역은 버튼식ARS, 콜봇상담 단계로 NPS중요도는 12.6, 10.6이며, 벤치마크 대비 NPS Gap은 벤치마크사인 하나은행 대비 0.3, 0.3 낮음."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "73",
+                    "gvrnMsgCtnt": "KB국민은행 상품 NPS는 26.0점이며 6위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 하나은행 대비 0.5점 낮고, 시장평균 대비 7.3점 낮음.\n- 보장성 NPS는 0.0점이며, 벤치마크사인 하나은행 대비 12.5점으로 가장 큰 열위를 보임.\n  보장성 NPS는 0.0으로 0점 이하로 나타남."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "74",
+                    "gvrnMsgCtnt": "NPS의 중점 개선 문제 영역은 저축성",
+                    "gvrnMsgDetailCtnt": "- 점진개선 문제 영역은 보장성, 외화환전으로 분석"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "83",
+                    "gvrnMsgCtnt": "KB국민은행 상품 NPS는 26.0이며 6위로 나타남.",
+                    "gvrnMsgDetailCtnt": "- 벤치마크사인 하나은행 대비 0.5 낮고, 시장평균 대비 7.3 낮음.\n- 비추천 비중은 23.6%이며 하나은행 대비 0.1%p 낮음."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "04",
+                    "gvrnMsgCtnt": "상품에서 KB국민은행의 응답률 1위는 저축성(68.8)이며, NPS 최상위기관인 토스뱅크 대비 4.0 낮고 벤치마크사인 하나은행 대비 1.5 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 저축성(33.2), 비추천이유 1위는 저축성(17.0)"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "84",
+                    "gvrnMsgCtnt": "보장성 NPS는 0.0로 벤치마크사인 하나은행 대비 12.5로 가장 큰 열위를 보임.\n보장성 NPS는 0.0로 0점 이하인 영역으로 나타남.",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "A1",
+                    "gvrnMsgCtnt": "KB국민은행 저축성 NPS는 23.5로 전체 6위이며, 직상위기관인 하나은행보다 1.9 낮고 시장평균 대비 10.3 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 24.8%로 최상위기관인 토스뱅크보다 11.7%p 높음 하나은행 대비 0.4%p 높음."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "A2",
+                    "gvrnMsgCtnt": "저축성 단계에서 KB국민은행의 응답률 1위는 이율의 적정성(29.4%)이며, NPS영향도 최상위기관인 토스뱅크 대비 1.3%p 높고 벤치마크사인 하나은행 대비 2.1%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 상품 가입 편리성(18.3%)이고 비추천이유 1위는 이율의 적정성(12.5%)."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "A4",
+                    "gvrnMsgCtnt": "저축성 단계의 고객감정지수(NSS)는 11.0이며, 벤치마크사인 하나은행 대비 -1.9 낮고, 부정비중은 3.0 높음\n\n저축성 단계의 고객불만지수(CCI)는 33.8이며, 벤치마크사인 하나은행 대비 3.2 높고, 개선비중은 0.6 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "B1",
+                    "gvrnMsgCtnt": "KB국민은행 여신성 NPS는 27.0로 전체 5위이며, 직상위기관인 하나은행보다 0.2 낮고 시장평균 대비 2.9 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 23.3%로 최상위기관인 카카오뱅크보다 8.6%p 높음 하나은행 대비 0.3%p 높음."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "B2",
+                    "gvrnMsgCtnt": "여신성 단계에서 KB국민은행의 응답률 1위는 금리의 적정성(6.1%)이며, NPS영향도 최상위기관인 카카오뱅크 대비 3.0%p 높고 벤치마크사인 하나은행 대비 0.9%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 신청 편의성 및 심사/승인의 신속성(3.3%)이고 비추천이유 1위는 금리의 적정성(1.9%)."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "B4",
+                    "gvrnMsgCtnt": "여신성 단계의 고객감정지수(NSS)는 2.8이며, 벤치마크사인 하나은행 대비 1.2 높고, 부정비중은 2.9 높음\n\n여신성 단계의 고객불만지수(CCI)는 38.2이며, 벤치마크사인 하나은행 대비 9.0 높고, 개선비중은 -1.4 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "C1",
+                    "gvrnMsgCtnt": "KB국민은행 투자성 NPS는 28.4로 전체 2위이며, 직상위기관인 토스뱅크보다 10.3 낮고 시장평균 대비 7.5 높음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 22.1%로 최상위기관인 토스뱅크보다 8.6%p 높음 토스뱅크 대비 8.6%p 높음."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "C2",
+                    "gvrnMsgCtnt": "투자성 단계에서 KB국민은행의 응답률 1위는 수익률의 적정성(3.2%)이며, NPS영향도 최상위기관은 KB국민은행으로 나타났고·벤치마크사인 하나은행 대비 1.2%p 높음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 상품 가입 편리성(1.1%)이고 비추천이유 1위는 수익률의 적정성(1.1%)."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "C4",
+                    "gvrnMsgCtnt": "투자성 단계의 고객감정지수(NSS)는 -11.2이며, 벤치마크사인 하나은행 대비 -1.4 낮고, 부정비중은 -1.0 낮음\n\n투자성 단계의 고객불만지수(CCI)는 38.8이며, 벤치마크사인 하나은행 대비 -5.8 낮고, 개선비중은 3.7 높음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "D1",
+                    "gvrnMsgCtnt": "KB국민은행 보장성 NPS는 0.0로 전체 6위이며, 직상위기관인 NH농협은행보다 10.3 낮고 시장평균 대비 18.8 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 36.4%로 최상위기관인 우리은행보다 36.4%p 높음 NH농협은행 대비 12.3%p 높음."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "D2",
+                    "gvrnMsgCtnt": "보장성 단계에서 KB국민은행의 응답률 1위는 보장성상품의 다양성(0.2%)이며, NPS영향도 최상위기관인 우리은행 대비 0.0%p 같고 벤치마크사인 하나은행 대비 -0.1%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 가입 승인 및 처리 신속성(0.1%)이고 비추천이유 1위는 보장성상품의 다양성(0.1%)."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "D4",
+                    "gvrnMsgCtnt": "보장성 단계의 고객감정지수(NSS)는 -16.7이며, 벤치마크사인 하나은행 대비 -2.4 낮고, 부정비중은 21.4 높음\n\n보장성 단계의 고객불만지수(CCI)는 50.0이며, 벤치마크사인 하나은행 대비 7.1 높고, 개선비중은 -14.3 낮음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "E1",
+                    "gvrnMsgCtnt": "KB국민은행 외화환전 NPS는 41.6로 전체 4위이며, 직상위기관인 신한은행보다 2.5 낮고 시장평균 대비 1.4 낮음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 16.3%로 최상위기관인 토스뱅크보다 3.4%p 높음 신한은행 대비 1.1%p 낮음."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "E2",
+                    "gvrnMsgCtnt": "외화환전 단계에서 KB국민은행의 응답률 1위는 환전신청의 편리성(3.0%)이며, NPS영향도 최상위기관인 토스뱅크 대비 -0.1%p 낮고 벤치마크사인 하나은행 대비 -0.8%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 환전신청의 편리성(2.2%)이고 비추천이유 1위는 서비스정보 이해용이성(0.5%)."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "E4",
+                    "gvrnMsgCtnt": "외화환전 단계의 고객감정지수(NSS)는 11.9이며, 벤치마크사인 하나은행 대비 -9.8 낮고, 부정비중은 12.2 높음\n\n외화환전 단계의 고객불만지수(CCI)는 33.1이며, 벤치마크사인 하나은행 대비 12.3 높고, 개선비중은 0.0 같음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "F1",
+                    "gvrnMsgCtnt": "KB국민은행 해외송금 NPS는 62.5로 전체 1위이며, 직하위기관인 신한은행보다 13.4 높고 시장평균 대비 16.3 높음",
+                    "gvrnMsgDetailCtnt": "- 비추천비중은 12.5%로 최상위기관인 KB국민은행으로 나타났고, 신한은행 대비 4.5%p 낮음."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "F2",
+                    "gvrnMsgCtnt": "해외송금 단계에서 KB국민은행의 응답률 1위는 해외송금의 신속성(0.6%)이며, NPS영향도 최상위기관인 토스뱅크 대비 -0.1%p 낮고 벤치마크사인 하나은행 대비 -0.1%p 낮음.",
+                    "gvrnMsgDetailCtnt": "- 추천이유 1위는 해외송금의 신속성(0.5%)이고 비추천이유 1위는 수수료의 적정성(0.1%)."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "F4",
+                    "gvrnMsgCtnt": "해외송금 단계의 고객감정지수(NSS)는 40.0이며, 벤치마크사인 하나은행 대비 24.0 높고, 부정비중은 -16.0 낮음\n\n해외송금 단계의 고객불만지수(CCI)는 16.0이며, 벤치마크사인 하나은행 대비 -20.0 낮고, 개선비중은 0.0 같음",
+                    "gvrnMsgDetailCtnt": ""
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "01",
+                    "polKndDstcd": "01",
+                    "polTagetDstcd": "05",
+                    "gvrnDstcd": "80",
+                    "gvrnMsgCtnt": "중점개선 영역은 저축성 단계로 NPS중요도는 70.5이며, 벤치마크 대비 NPS Gap은 벤치마크사인 하나은행 대비 1.0 낮음.",
+                    "gvrnMsgDetailCtnt": "- 점진개선 영역은 보장성, 외화환전 단계로 NPS중요도는 0.5, 5.8이며, 벤치마크 대비 NPS Gap은 벤치마크사인 하나은행 대비 0.1, 1.2 낮음."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "73",
+                    "gvrnMsgCtnt": "2024.0416월 기준 KB 스타뱅킹 NPS는 62.9이며, 전월대비 0.7 하락",
+                    "gvrnMsgDetailCtnt": "- 고객경험단계 중 '계좌조회/이체'가 80.4로 가장 높으며, '콘텐츠/서비스'가 51.0로 가장 낮음\n- KB 스타뱅킹의 고객감정지수(NSS)는 40.6이며, 고객불만지수(CCI)는 13.6로 진단됨"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "95",
+                    "gvrnMsgCtnt": "2024.4월 기준 KB 스타뱅킹 NPS는 62.9이며, 전월대비 (0.7)%p 하락",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율은 75.1%로 전월 대비 (0.5)%p 상승, 비추천고객 비율은 12.1%로 전월 대비 (1.2)%p 상승.\n- '상품가입' 단계가 72.4로 주요 긍정 요인으로 나타났으나, '상품관리/해지' 단계가 0.2로 부정 요인으로 나타남."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "A1",
+                    "gvrnMsgCtnt": "KB국민은행 로그인/인증는 65.4로, 1월 중 NPS점수는 전월대비 0.0 동일",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 76.3%, 비추천 고객 비율 10.8%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 동일\n- '로그인/인증 안정성'의 NPS 영향도는 34.8점으로 주요 긍정 요인이며, '로그인/인증 방식의 다양성'이 2.1점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "A3",
+                    "gvrnMsgCtnt": "로그인/인증단계 중 '로그인/인증 방식의 다양성'의 추천 비율은 48.3로 품질요소 중 가장 높았으며, '로그인/인증 방식의 다양성' 추천 비율은 3.6로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '로그인/인증 방식의 다양성' 추천비율 점수는 전월과 동일 \n- '로그인/인증 방식의 다양성' 추천비율 점수는 전월대비 -0.1점 하락"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "B1",
+                    "gvrnMsgCtnt": "KB국민은행 홈화면는 62.2로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 74.2%, 비추천 고객 비율 11.9%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 하락\n- '홈화면 콘텐츠의 고객 지향성'의 NPS 영향도는 48.9점으로 주요 긍정 요인이며, '홈화면 콘텐츠의 다양성'이 3.5점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "B3",
+                    "gvrnMsgCtnt": "홈화면단계 중 '홈화면 콘텐츠의 고객 지향성'의 추천 비율은 66.0로 품질요소 중 가장 높았으며, '홈화면 콘텐츠의 다양성' 추천 비율은 4.4로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '홈화면 콘텐츠의 고객 지향성' 추천비율 점수는 전월과 동일 \n- '홈화면 콘텐츠의 다양성' 추천비율 점수는 전월대비 -0.3점 하락"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "C1",
+                    "gvrnMsgCtnt": "KB국민은행 계좌조회/이체는 71.0로, 1월 중 NPS점수는 전월대비 0.0 동일",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 80.1%, 비추천 고객 비율 9.1%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 동일\n- '계좌조회/이체 거래의 기능성'의 NPS 영향도는 74.3점으로 주요 긍정 요인이며, '계좌조회/이체 거래의 다양성'이 2.7점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "C3",
+                    "gvrnMsgCtnt": "계좌조회/이체단계 중 '계좌조회/이체 거래의 기능성'의 추천 비율은 80.0로 품질요소 중 가장 높았으며, '계좌조회/이체 거래의 다양성' 추천 비율은 3.6로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '계좌조회/이체 거래의 기능성' 추천비율 점수는 전월과 동일 \n- '계좌조회/이체 거래의 다양성' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "D1",
+                    "gvrnMsgCtnt": "KB국민은행 통합검색는 57.2로, 1월 중 NPS점수는 전월대비 0.0 동일",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 71.8%, 비추천 고객 비율 14.6%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 동일\n- '검색결과의 시인성'의 NPS 영향도는 43.3점으로 주요 긍정 요인이며, '상품 추천의 적정성'이 0.0점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "D3",
+                    "gvrnMsgCtnt": "통합검색단계 중 '검색결과의 시인성'의 추천 비율은 50.8로 품질요소 중 가장 높았으며, '상품 추천의 적정성' 추천 비율은 0.0로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '검색결과의 시인성' 추천비율 점수는 전월과 동일 \n- '상품 추천의 적정성' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "E1",
+                    "gvrnMsgCtnt": "KB국민은행 금융상품몰는 53.2로, 1월 중 NPS점수는 전월대비 0.0 동일",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 69.6%, 비추천 고객 비율 16.4%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 동일\n- '금융상품몰 메뉴체계의 시인성'의 NPS 영향도는 62.5점으로 주요 긍정 요인이며, '상품 가입화면 진입의 원활성'이 3.8점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "E3",
+                    "gvrnMsgCtnt": "금융상품몰단계 중 '금융상품몰 메뉴체계의 시인성'의 추천 비율은 70.3로 품질요소 중 가장 높았으며, '상품 가입화면 진입의 원활성' 추천 비율은 5.7로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '금융상품몰 메뉴체계의 시인성' 추천비율 점수는 전월과 동일 \n- '상품 가입화면 진입의 원활성' 추천비율 점수는 전월대비 -0.9점 하락"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "F1",
+                    "gvrnMsgCtnt": "KB국민은행 상품가입는 56.2로, 1월 중 NPS점수는 전월대비 0.0 동일",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 71.5%, 비추천 고객 비율 15.3%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 동일\n- '가입절차의 업무연속성'의 NPS 영향도는 61.3점으로 주요 긍정 요인이며, '상품가입중 상담 연결 편의성'이 2.3점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "F3",
+                    "gvrnMsgCtnt": "상품가입단계 중 '가입절차의 업무연속성'의 추천 비율은 71.3로 품질요소 중 가장 높았으며, '상품가입중 상담 연결 편의성' 추천 비율은 4.0로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '가입절차의 업무연속성' 추천비율 점수는 전월과 동일 \n- '상품가입중 상담 연결 편의성' 추천비율 점수는 전월대비 -0.2점 하락"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "G1",
+                    "gvrnMsgCtnt": "KB국민은행 상품관리/해지는 56.6로, 1월 중 NPS점수는 전월대비 0.0 동일",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 72.2%, 비추천 고객 비율 15.6%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 동일\n- '상품관리/해지 서비스의 다양성'의 NPS 영향도는 80.0점으로 주요 긍정 요인이며, '상품관리/해지에 따른 관리유용성'이 -1.1점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "G3",
+                    "gvrnMsgCtnt": "상품관리/해지단계 중 '상품관리/해지 서비스의 다양성'의 추천 비율은 84.0로 품질요소 중 가장 높았으며, '상품관리/해지에 따른 관리유용성' 추천 비율은 1.6로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '상품관리/해지 서비스의 다양성' 추천비율 점수는 전월과 동일 \n- '상품관리/해지에 따른 관리유용성' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "H1",
+                    "gvrnMsgCtnt": "KB국민은행 콘텐츠/서비스는 53.3로, 1월 중 NPS점수는 전월대비 0.0 동일",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 69.9%, 비추천 고객 비율 16.6%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 동일\n- '계열사 연계 편의성'의 NPS 영향도는 63.6점으로 주요 긍정 요인이며, '멤버십(KB스타클럽)의 유용성'이 -0.5점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "H3",
+                    "gvrnMsgCtnt": "콘텐츠/서비스단계 중 '계열사 연계 편의성'의 추천 비율은 63.6로 품질요소 중 가장 높았으며, '계열사 연계 편의성' 추천 비율은 3.4로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '계열사 연계 편의성' 추천비율 점수는 전월과 동일 \n- '계열사 연계 편의성' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "06",
+                    "gvrnDstcd": "72",
+                    "gvrnMsgCtnt": "KB 스타뱅킹 조사결과 중 응답률 1위인 구체적 고객경험은 금융상품몰 단계의 '상품 정보의 이해 용이성'으로 나타남",
+                    "gvrnMsgDetailCtnt": "- 금융상품몰 단계의 '금융상품몰 메뉴체계의 시인성'의 경우 부정적인 고객경험 비중이 높아 개선이 요구됨\n- 로그인/인증 단계의 '로그인/인증 방식의 다양성'의 경우 긍정적인 고객경험 비중이 높게 나타남"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "73",
+                    "gvrnMsgCtnt": "2024.0415월 기준 영업점 NPS는 75.8이며, 전월대비 0.7 상승",
+                    "gvrnMsgDetailCtnt": "- 고객경험단계 중 '업무처리/배웅'가 88.0로 가장 높으며, '대기'가 60.6로 가장 낮음\n- 영업점의 고객감정지수(NSS)는 58.1이며, 고객불만지수(CCI)는 10.6로 진단됨"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "95",
+                    "gvrnMsgCtnt": "2024.4월 기준 영업점 NPS는 75.8이며, 전월대비 (0.7)%p 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율은 82.3%로 전월 대비 (1.2)%p 하락, 비추천고객 비율은 6.5%로 전월 대비 (1.9)%p 하락.\n- '맞이/의도파악' 단계가 100.0로 주요 긍정 요인으로 나타났으나, '대기' 단계가 -2.8로 부정 요인으로 나타남."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "A1",
+                    "gvrnMsgCtnt": "KB국민은행 내점/방문는 67.9로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 80.7%, 비추천 고객 비율 12.8%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 하락\n- '객장안내의 원활성'의 NPS 영향도는 96.9점으로 주요 긍정 요인이며, '자동화기기 이용 편의성'이 1.2점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "A3",
+                    "gvrnMsgCtnt": "내점/방문단계 중 '객장안내의 원활성'의 추천 비율은 96.9로 품질요소 중 가장 높았으며, '자동화기기 이용 편의성' 추천 비율은 1.2로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '객장안내의 원활성' 추천비율 점수는 전월과 동일 \n- '자동화기기 이용 편의성' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "B1",
+                    "gvrnMsgCtnt": "KB국민은행 대기는 55.4로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 73.7%, 비추천 고객 비율 18.3%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 상승, 0.0%p 하락\n- '대기공간의 쾌적성'의 NPS 영향도는 94.7점으로 주요 긍정 요인이며, '대기시설 편의성'이 0.9점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "B3",
+                    "gvrnMsgCtnt": "대기단계 중 '대기공간의 쾌적성'의 추천 비율은 94.7로 품질요소 중 가장 높았으며, '대기시설 편의성' 추천 비율은 1.2로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '대기공간의 쾌적성' 추천비율 점수는 전월과 동일 \n- '대기시설 편의성' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "C1",
+                    "gvrnMsgCtnt": "KB국민은행 맞이/의도파악는 75.2로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 85.5%, 비추천 고객 비율 10.3%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 상승, 0.0%p 하락\n- '경청과 공감'의 NPS 영향도는 76.9점으로 주요 긍정 요인이며, '대기양해 멘트'이 -0.1점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "C3",
+                    "gvrnMsgCtnt": "맞이/의도파악단계 중 '경청과 공감'의 추천 비율은 84.6로 품질요소 중 가장 높았으며, '용모 및 복장 단정성' 추천 비율은 1.1로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '경청과 공감' 추천비율 점수는 전월과 동일 \n- '용모 및 복장 단정성' 추천비율 점수는 전월대비 -0.3점 하락"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "E1",
+                    "gvrnMsgCtnt": "KB국민은행 직원상담는 76.0로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 86.2%, 비추천 고객 비율 10.1%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 동일\n- '상담의 전문성'의 NPS 영향도는 82.5점으로 주요 긍정 요인이며, '안내자료 활용 및 제공'이 0.8점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "E3",
+                    "gvrnMsgCtnt": "직원상담단계 중 '상담의 전문성'의 추천 비율은 84.2로 품질요소 중 가장 높았으며, '안내자료 활용 및 제공' 추천 비율은 1.3로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '상담의 전문성' 추천비율 점수는 전월과 동일 \n- '안내자료 활용 및 제공' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "D1",
+                    "gvrnMsgCtnt": "KB국민은행 업무처리/배웅는 75.9로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 86.0%, 비추천 고객 비율 10.1%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 상승, 0.0%p 동일\n- '서류작성 목적 안내 명확성'의 NPS 영향도는 91.7점으로 주요 긍정 요인이며, '배웅인사와 태도'이 -100.0점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "D3",
+                    "gvrnMsgCtnt": "업무처리/배웅단계 중 '서류작성 목적 안내 명확성'의 추천 비율은 91.7로 품질요소 중 가장 높았으며, '배웅인사와 태도' 추천 비율은 0.0로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '서류작성 목적 안내 명확성' 추천비율 점수는 전월과 동일 \n- '배웅인사와 태도' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "07",
+                    "gvrnDstcd": "72",
+                    "gvrnMsgCtnt": "영업점 조사결과 중 응답률 1위인 구체적 고객경험은 대기 단계의 '체감 대기시간 적절성'으로 나타남",
+                    "gvrnMsgDetailCtnt": "- 내점/방문 단계의 '객장안내의 원활성'의 경우 부정적인 고객경험 비중이 높아 개선이 요구됨\n- 업무처리/배웅 단계의 '배웅인사와 태도'의 경우 긍정적인 고객경험 비중이 높게 나타남"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "73",
+                    "gvrnMsgCtnt": "2024.0416월 기준 고객센터 NPS는 31.8이며, 전월대비 0.1 상승",
+                    "gvrnMsgDetailCtnt": "- 고객경험단계 중 '직원상담'가 51.4로 가장 높으며, '챗봇상담'가 -11.1로 가장 낮음\n- 고객센터의 고객감정지수(NSS)는 27.2이며, 고객불만지수(CCI)는 22.8로 진단됨"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "95",
+                    "gvrnMsgCtnt": "2024.4월 기준 고객센터 NPS는 31.8이며, 전월대비 (0.1)%p 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율은 59.7%로 전월과 동일, 비추천고객 비율은 28.0%로 전월 대비 (0.1)%p 하락.\n- '직원 상담' 단계가 64.9로 주요 긍정 요인으로 나타났으나, '대기' 단계가 -9.3로 부정 요인으로 나타남."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "B1",
+                    "gvrnMsgCtnt": "KB국민은행 버튼식ARS는 22.5로, 1월 중 NPS점수는 전월대비 0.0 동일",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 54.6%, 비추천 고객 비율 32.1%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 동일\n- '메뉴구성 개인화'의 NPS 영향도는 29.3점으로 주요 긍정 요인이며, '메뉴구성 개인화'이 0.1점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "B3",
+                    "gvrnMsgCtnt": "버튼식ARS단계 중 '메뉴구성 개인화'의 추천 비율은 61.0로 품질요소 중 가장 높았으며, '메뉴구성 개인화' 추천 비율은 4.0로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '메뉴구성 개인화' 추천비율 점수는 전월과 동일 \n- '메뉴구성 개인화' 추천비율 점수는 전월대비 -1.7점 하락"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "C1",
+                    "gvrnMsgCtnt": "KB국민은행 보이는ARS는 9.5로, 1월 중 NPS점수는 전월대비 0.0 동일",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 48.8%, 비추천 고객 비율 39.3%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 하락, 0.0%p 동일\n- '메뉴구성 개인화'의 NPS 영향도는 25.0점으로 주요 긍정 요인이며, '메뉴구성 적절성'이 -33.3점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "C3",
+                    "gvrnMsgCtnt": "보이는ARS단계 중 '메뉴구성 개인화'의 추천 비율은 50.0로 품질요소 중 가장 높았으며, 'UI 심미성' 추천 비율은 0.0로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '메뉴구성 개인화' 추천비율 점수는 전월과 동일 \n- 'UI 심미성' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "A1",
+                    "gvrnMsgCtnt": "KB국민은행 대기는 11.5로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 49.7%, 비추천 고객 비율 38.1%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 하락\n- '대기상황 안내 정확성'의 NPS 영향도는 22.6점으로 주요 긍정 요인이며, '대기중 대체 상담채널 안내'이 -4.6점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "A3",
+                    "gvrnMsgCtnt": "대기단계 중 '대기상황 안내 정확성'의 추천 비율은 52.0로 품질요소 중 가장 높았으며, '대기중 콜백서비스 안내' 추천 비율은 1.8로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '대기상황 안내 정확성' 추천비율 점수는 전월과 동일 \n- '대기중 콜백서비스 안내' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "E1",
+                    "gvrnMsgCtnt": "KB국민은행 챗봇상담는 -4.5로, 1월 중 NPS점수는 전월대비 0.0 동일",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 42.7%, 비추천 고객 비율 47.2%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 상승, 0.0%p 동일\n- 'UI 심미성'의 NPS 영향도는 100.0점으로 주요 긍정 요인이며, '의도파악 정확성'이 -17.1점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "E3",
+                    "gvrnMsgCtnt": "챗봇상담단계 중 'UI 심미성'의 추천 비율은 100.0로 품질요소 중 가장 높았으며, '의도파악 정확성' 추천 비율은 0.0로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- 'UI 심미성' 추천비율 점수는 전월과 동일 \n- '의도파악 정확성' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "F1",
+                    "gvrnMsgCtnt": "KB국민은행 콜봇상담는 -4.3로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 42.6%, 비추천 고객 비율 46.9%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 동일\n- '답변 신속성'의 NPS 영향도는 17.3점으로 주요 긍정 요인이며, '의도파악 정확성'이 -7.2점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "F3",
+                    "gvrnMsgCtnt": "콜봇상담단계 중 '경청 및 의도파악'의 추천 비율은 50.5로 품질요소 중 가장 높았으며, '자연스러운 대화' 추천 비율은 1.8로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '경청 및 의도파악' 추천비율 점수는 전월과 동일 \n- '자연스러운 대화' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "D1",
+                    "gvrnMsgCtnt": "KB국민은행 직원상담는 44.8로, 1월 중 NPS점수는 전월대비 0.0 하락",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 67.8%, 비추천 고객 비율 23.0%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 하락, 0.0%p 동일\n- '경청 및 의도파악'의 NPS 영향도는 62.5점으로 주요 긍정 요인이며, '대기양해 멘트'이 -6.7점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "D3",
+                    "gvrnMsgCtnt": "직원상담단계 중 '경청 및 의도파악'의 추천 비율은 75.0로 품질요소 중 가장 높았으며, '대기양해 멘트' 추천 비율은 1.7로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '경청 및 의도파악' 추천비율 점수는 전월과 동일 \n- '대기양해 멘트' 추천비율 점수는 전월대비 4.7점 상승"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "08",
+                    "gvrnDstcd": "72",
+                    "gvrnMsgCtnt": "고객센터 조사결과 중 응답률 1위인 구체적 고객경험은 대기 단계의 '대기중 콜백서비스 안내'으로 나타남",
+                    "gvrnMsgDetailCtnt": "- 챗봇상담 단계의 'UI 심미성'의 경우 부정적인 고객경험 비중이 높아 개선이 요구됨\n- 보이는ARS 단계의 '메뉴구성 적절성'의 경우 긍정적인 고객경험 비중이 높게 나타남"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "73",
+                    "gvrnMsgCtnt": "2024.0416월 기준 상품 NPS는 61.5이며, 전월대비 10.7 하락",
+                    "gvrnMsgDetailCtnt": "- 고객경험단계 중 '보장성'가 100.0로 가장 높으며, '해외송금'가 28.6로 가장 낮음\n- 상품의 고객감정지수(NSS)는 36.3이며, 고객불만지수(CCI)는 14.8로 진단됨"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "95",
+                    "gvrnMsgCtnt": "2024.4월 기준 상품 NPS는 61.5이며, 전월대비 (10.7)%p 하락",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율은 76.9%로 전월 대비 (6.4)%p 하락, 비추천고객 비율은 15.4%로 전월 대비 (4.3)%p 상승.\n- '외화환전' 단계가 100.0로 주요 긍정 요인으로 나타났으나, '해외송금' 단계가 1.2로 부정 요인으로 나타남."
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "A1",
+                    "gvrnMsgCtnt": "KB국민은행 저축성는 62.1로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 75.5%, 비추천 고객 비율 13.4%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 상승, 0.0%p 동일\n- '부가서비스의 적합성'의 NPS 영향도는 80.0점으로 주요 긍정 요인이며, '예적금상품 다양성'이 1.1점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "A3",
+                    "gvrnMsgCtnt": "저축성단계 중 '부가서비스의 적합성'의 추천 비율은 90.0로 품질요소 중 가장 높았으며, '예적금상품 다양성' 추천 비율은 2.3로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '부가서비스의 적합성' 추천비율 점수는 전월과 동일 \n- '예적금상품 다양성' 추천비율 점수는 전월대비 -0.6점 하락"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "B1",
+                    "gvrnMsgCtnt": "KB국민은행 여신성는 80.2로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 87.1%, 비추천 고객 비율 6.9%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 상승, 0.0%p 하락\n- '금리우대 조건의 적절성'의 NPS 영향도는 100.0점으로 주요 긍정 요인이며, '대출상품 다양성'이 0.0점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "B3",
+                    "gvrnMsgCtnt": "여신성단계 중 '금리우대 조건의 적절성'의 추천 비율은 100.0로 품질요소 중 가장 높았으며, '대출상품 다양성' 추천 비율은 1.0로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '금리우대 조건의 적절성' 추천비율 점수는 전월과 동일 \n- '대출상품 다양성' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "C1",
+                    "gvrnMsgCtnt": "KB국민은행 투자성는 71.5로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 80.8%, 비추천 고객 비율 9.3%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 상승, 0.0%p 하락\n- '사후관리의 지속성'의 NPS 영향도는 100.0점으로 주요 긍정 요인이며, '상품 가입 편리성'이 0.0점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "C3",
+                    "gvrnMsgCtnt": "투자성단계 중 '사후관리의 지속성'의 추천 비율은 100.0로 품질요소 중 가장 높았으며, '상품 가입 편리성' 추천 비율은 5.4로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '사후관리의 지속성' 추천비율 점수는 전월과 동일 \n- '상품 가입 편리성' 추천비율 점수는 전월과 동일"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "D1",
+                    "gvrnMsgCtnt": "KB국민은행 보장성는 76.7로, 1월 중 NPS점수는 전월대비 0.0 하락",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 83.9%, 비추천 고객 비율 7.2%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 동일, 0.0%p 상승\n- '보장내용 및 보험이율의 적정성'의 NPS 영향도는 100.0점으로 주요 긍정 요인이며, '가입 승인 및 처리 신속성'이 0.6점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "D3",
+                    "gvrnMsgCtnt": "보장성단계 중 '보장내용 및 보험이율의 적정성'의 추천 비율은 100.0로 품질요소 중 가장 높았으며, '가입 승인 및 처리 신속성' 추천 비율은 2.1로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '보장내용 및 보험이율의 적정성' 추천비율 점수는 전월과 동일 \n- '가입 승인 및 처리 신속성' 추천비율 점수는 전월대비 -10.4점 하락"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "E1",
+                    "gvrnMsgCtnt": "KB국민은행 외화환전는 78.1로, 1월 중 NPS점수는 전월대비 0.0 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 87.0%, 비추천 고객 비율 8.9%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 상승, 0.0%p 하락\n- '서비스정보 이해용이성'의 NPS 영향도는 100.0점으로 주요 긍정 요인이며, '환전서비스 기능의 다양성'이 -4.1점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "E3",
+                    "gvrnMsgCtnt": "외화환전단계 중 '서비스정보 이해용이성'의 추천 비율은 100.0로 품질요소 중 가장 높았으며, '환전서비스 기능의 다양성' 추천 비율은 0.0로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '서비스정보 이해용이성' 추천비율 점수는 전월과 동일 \n- '환전서비스 기능의 다양성' 추천비율 점수는 전월대비 -4.1점 하락"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "F1",
+                    "gvrnMsgCtnt": "KB국민은행 해외송금는 75.0로, 1월 중 NPS점수는 전월대비 0.1 상승",
+                    "gvrnMsgDetailCtnt": "- 추천고객 비율 83.9%, 비추천 고객 비율 9.0%로, 전월 대비 추천 및 비추천 고객 비율이 각각 0.0%p 상승, 0.0%p 하락\n- '서비스정보 이해용이성'의 NPS 영향도는 50.0점으로 주요 긍정 요인이며, '수수료의 적정성'이 -0.8점으로 가장 낮은 NPS 영향도를 보임"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "F3",
+                    "gvrnMsgCtnt": "해외송금단계 중 '서비스정보 이해용이성'의 추천 비율은 50.0로 품질요소 중 가장 높았으며, '수수료의 적정성' 추천 비율은 0.6로 품질요소중 가장 낮음",
+                    "gvrnMsgDetailCtnt": "- '서비스정보 이해용이성' 추천비율 점수는 전월과 동일 \n- '수수료의 적정성' 추천비율 점수는 전월대비 -0.5점 하락"
+                },
+                {
+                    "baseYm": "202602",
+                    "baseDt": "20260204000554",
+                    "polModDstcd": "02",
+                    "polKndDstcd": "03",
+                    "polTagetDstcd": "09",
+                    "gvrnDstcd": "72",
+                    "gvrnMsgCtnt": "상품 조사결과 중 응답률 1위인 구체적 고객경험은 저축성 단계의 '예적금상품 다양성'으로 나타남",
+                    "gvrnMsgDetailCtnt": "- 외화환전 단계의 '서비스정보 이해용이성'의 경우 부정적인 고객경험 비중이 높아 개선이 요구됨\n- 외화환전 단계의 '환전서비스 기능의 다양성'의 경우 긍정적인 고객경험 비중이 높게 나타남"
+                }
+            ]
+        }
+    }
+}

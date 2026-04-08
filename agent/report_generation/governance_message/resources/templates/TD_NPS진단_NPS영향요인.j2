@@ -1,0 +1,13 @@
+{% if 채널명 %}
+{{ 채널명 }}에서 {% else %}{% endif %}KB국민은행의 응답률 1위는 {{ 응답률_최상위_CX }}({{ 응답률 }})이며, NPS 최상위기관인 {{ 최상위은행명 }} 대비 {{ 최상위은행_CX_차이 | float | abs }} {{ 최상위은행_CX_플래그[1] }} 벤치마크사인 {{ 벤치마크사명 }} 대비 {{ 벤치마크사_CX_차이 | float | abs }} {{ 벤치마크사_CX_플래그[1] }}.
+{detailContents}
+- 추천이유 1위는 {{ 추천이유_1위_CX }}({{ 추천비율 }}), 비추천이유 1위는 {{ 비추천이유_1위_CX }}({{ 비추천비율 }})
+{# {% if 중점개선 %}
+- 중점개선 영역은 {% for item in 중점개선 %}
+{{ item.영향요인구분 }}{% if not loop.last %}, {% endif %}{% endfor %} 단계로, NPS중요도는 {% for item in 중점개선 %}
+{{ item.NPS중요도 }}{% if not loop.last %}, {% endif %}{% endfor %}이며, NPS영향도는 벤치마크사인 {{ 벤치마크사명 }} 대비 {% for item in 중점개선 %}{{ item.NPS영향도GAP | float | abs }}{% if not loop.last %}, {% endif %}{% endfor %} 낮음.
+{% endif %}
+{% if 점진개선 %}
+- 점진개선 영역은 {% for item in 점진개선 %}{{ item.영향요인구분 }}{% if not loop.last %}, {% endif %}{% endfor %} 단계로 NPS 중요도는 {% for item in 점진개선 %}
+{{ item.NPS중요도 }}{% if not loop.last %}, {% endif %}{% endfor %}이며, NPS 영향도는 벤치마크사인 {{ 벤치마크사명 }} 대비 {% for item in 점진개선 %}{{ item.NPS영향도GAP | float | abs }}{% if not loop.last %}, {% endif %}{% endfor %} 낮음.
+{% endif %} #}

@@ -1,0 +1,17 @@
+{% if 채널명 %}
+{{ 채널명 }} {% else %}
+{% endif %}
+{% if 중점개선 %}
+NPS의 중점 개선 문제 영역은 {% for item in 중점개선 %}
+{{ item.영향요인구분 }}{% if not loop.last %}, {% endif %}
+{% endfor %}
+{% endif %}
+{detailContents}
+{% if 점진개선 %}
+- 점진개선 문제 영역은 {% for item in 점진개선 %}
+{{ item.영향요인구분 }}{% if not loop.last %}, {% endif %}
+{% endfor %}
+{% endif %}
+{% if 중점개선 is not none or 점진개선 is not none %}
+으로 분석
+{% endif %}

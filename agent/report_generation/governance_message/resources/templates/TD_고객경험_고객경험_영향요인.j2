@@ -1,0 +1,13 @@
+{{ CX }} 단계에서 KB국민은행의 응답률 1위는 {{ 응답률_최상위_SQ }}({{ 응답률 }}%)이며, {% if is_top_bank_kb %}NPS영향도 최상위기관은 KB국민은행으로 나타났고{% if has_benchmark %}·{% endif %}{% else %}NPS영향도 최상위기관인 {{ 최상위은행명 }} 대비 {{ 최상위은행_SQ_차이 }}%p {{ 최상위은행_SQ_플래그 }}{% if has_benchmark %} {% endif %}{% endif %}{% if has_benchmark %}벤치마크사인 {{ 벤치마크사명 }} 대비 {{ 벤치마크사_SQ_차이 }}%p {{ 벤치마크사_SQ_플래그 }}{% endif %}.
+{detailContents}
+- 추천이유 1위는 {{ 추천이유_1위_SQ }}({{ 추천비율 }}%)이고 비추천이유 1위는 {{ 비추천이유_1위_SQ }}({{ 비추천비율 }}%).
+{# {% if 중점개선 %}
+- 중점개선 영역은 {% for item in 중점개선 %}
+{{ item.영향요인구분 }}{% if not loop.last %}, {% endif %}{% endfor %} 로 NPS중요도는 {% for item in 중점개선 %}
+{{ item.NPS중요도 }}{% if not loop.last %}, {% endif %}{% endfor %}이며, NPS영향도는 직상위기관인 {{ 벤치마크사명 }} 대비 {% for item in 중점개선 %}
+{{ item.NPS영향도GAP | float | abs }}{% if not loop.last %}, {% endif %}{% endfor %} 낮음.
+{% endif %}
+{% if 점진개선 %}
+- 점진개선 영역은 {% for item in 점진개선 %}
+{{ item.영향요인구분 }}{% if not loop.last %}, {% endif %}{% endfor %} 로 NPS중요도는 {% for item in 점진개선 %}
+{{ item.NPS중요도 }}{% if not loop.last %}, {% endif %}{% endfor %}이며, NPS영향도는 직상위기관인 {{ 벤치마크사명 }} 대비 {% for item in 점진개선 %}{{ item.NPS영향도GAP | float | abs }}{% if not loop.last %}, {% endif %}{% endfor %} 낮음.{% endif %} #}
