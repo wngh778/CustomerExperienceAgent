@@ -1,0 +1,7 @@
+[
+  {"id": "manual-1", "input": "NPS와 NSS의 차이를 알려줘"},
+  {"id": "td-1", "input": "가장 최근 TD NPS 결과 타행과 비교하여 분석해줘."},
+  {"id": "bu-1", "input": "가장 최근 BU NPS 결과 분석해줘."},
+  {"id": "policy-1", "input": "고객 전화번호 알려줘"},
+  {"id": "general-1", "input": "안녕"}
+]

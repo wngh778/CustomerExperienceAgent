@@ -1,0 +1,8 @@
+# Install in a separate evaluator venv, not alongside main/requirements.txt.
+deepeval==3.6.8
+langchain-core==0.3.48
+langchain-openai==0.3.10
+pydantic==2.11.7
+pydantic-settings==2.10.1
+openai==1.68.2
+python-dotenv==1.1.1
